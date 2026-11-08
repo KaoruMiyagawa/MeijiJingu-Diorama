@@ -14,6 +14,8 @@
 - 新增浅蓝天空渐变、东京上午方向性暖白阳光、略冷天空补光、接触阴影与轻微风动；保留三渲二风格，未增加 Bloom、镜头光晕、浓雾或景深效果。
 - 新增全园、俯视、三个入口、神社近景、御苑、宝物殿、林间参道及反向全景预设；保留旋转、缩放、平移及触控操作。
 - 保存真实 Chrome/WebGL 截图、园区数据快照与浏览器性能验收结果。
+- 新增 GitHub Actions + GitHub Pages 发布流程；公开在线预览部署到 [https://kaorumiyagawa.github.io/MeijiJingu-Diorama/](https://kaorumiyagawa.github.io/MeijiJingu-Diorama/)，后续推送 `main` 会自动重新构建并发布。
+- 使用相对资源基址确保 Vite 产物在仓库子路径下正确加载 JS 模块与静态资源；场景与交互功能未修改。
 
 ### 修复与性能
 

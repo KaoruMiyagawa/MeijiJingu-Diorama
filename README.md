@@ -1,5 +1,9 @@
 # 明治神宮 — A Forest in the Sun
 
+## 🌿 在线体验
+
+[打开 GitHub Pages 上的完整明治神宫森林园区](https://kaorumiyagawa.github.io/MeijiJingu-Diorama/)
+
 **当前版本：v1.2.0**。东京明治神宫内苑的实时 WebGL 森林微缩世界：保留第一版精细神社建筑、树木美术与自由观察能力，并扩展为包含三个入口、参道、森林、御苑、南池、北部设施和宝物殿的完整园区场景。
 
 ![明治神宫全园森林微缩世界，真实 Chrome WebGL 截图](captures/forest-20261105/01-whole-forest.png)
@@ -44,6 +48,8 @@ npm run dev
 - [宝物殿与北池](http://127.0.0.1:8787/?scene=precinct&view=8)
 - [真实 Chrome 截图评审页](http://127.0.0.1:8787/captures/forest-20261105/index.html)
 - [保留的原核心区组合](http://127.0.0.1:8787/?scene=core)，使用当前晴日环境
+
+GitHub Pages 使用 `.github/workflows/pages.yml` 自动构建 `dist/` 并部署。每次推送到 `main` 都会触发更新；`vite.config.js` 使用相对资源路径，支持仓库子路径 `/MeijiJingu-Diorama/`。部署状态可在仓库 **Actions → Build and deploy GitHub Pages** 查看。
 
 `Start.cmd` 检查已有本地服务，必要时后台启动，再打开浏览器。日志在 `server.log` / `server-error.log`。
 
