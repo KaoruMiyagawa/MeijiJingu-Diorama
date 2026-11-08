@@ -1,0 +1,7903 @@
+{
+  "precinct": {
+    "size": 280,
+    "north": [
+      0,
+      0,
+      -1
+    ],
+    "east": [
+      1,
+      0,
+      0
+    ],
+    "coreOrigin": [
+      -18,
+      0.9,
+      -8
+    ],
+    "boundary": [
+      [
+        -60,
+        -122
+      ],
+      [
+        -25,
+        -132
+      ],
+      [
+        15,
+        -125
+      ],
+      [
+        45,
+        -111
+      ],
+      [
+        63,
+        -94
+      ],
+      [
+        80,
+        -57
+      ],
+      [
+        91,
+        -13
+      ],
+      [
+        91,
+        33
+      ],
+      [
+        80,
+        72
+      ],
+      [
+        66,
+        110
+      ],
+      [
+        57,
+        130
+      ],
+      [
+        37,
+        130
+      ],
+      [
+        14,
+        113
+      ],
+      [
+        -20,
+        102
+      ],
+      [
+        -43,
+        81
+      ],
+      [
+        -66,
+        47
+      ],
+      [
+        -81,
+        6
+      ],
+      [
+        -91,
+        -43
+      ],
+      [
+        -88,
+        -72
+      ],
+      [
+        -78,
+        -103
+      ]
+    ],
+    "source": [
+      "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg",
+      "https://www.meijijingu.or.jp/en/map/"
+    ],
+    "confidence": {
+      "topology": "official-map-confirmed",
+      "coordinates": "artistic-approximation",
+      "elevation": "artistic-approximation"
+    },
+    "notes": "Inner precinct only. Boundary is a schematic interpretation, not a georeferenced property survey. Yoyogi Park and the Outer Garden are excluded."
+  },
+  "landmarks": [
+    {
+      "id": "harajuku-entry",
+      "name": "原宿口 · 南入口",
+      "position": [
+        55,
+        0.4054611158778324,
+        124
+      ],
+      "region": "south",
+      "source": [
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg",
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "entrance",
+      "planPosition": [
+        55,
+        0,
+        124
+      ]
+    },
+    {
+      "id": "yoyogi-entry",
+      "name": "代々木口 · 北入口",
+      "position": [
+        55,
+        0.6014323170936279,
+        -95
+      ],
+      "region": "north",
+      "source": [
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg",
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "entrance",
+      "planPosition": [
+        55,
+        0,
+        -95
+      ]
+    },
+    {
+      "id": "sangubashi-entry",
+      "name": "参宮橋口 · 西北入口",
+      "position": [
+        -84,
+        0.927586021543947,
+        -65
+      ],
+      "region": "west",
+      "source": [
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg",
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "entrance",
+      "planPosition": [
+        -84,
+        0,
+        -65
+      ]
+    },
+    {
+      "id": "main-sanctuary",
+      "name": "御社殿",
+      "position": [
+        -18,
+        0.9,
+        -26.4
+      ],
+      "region": "sanctuary",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "preserved",
+      "localAnchor": [
+        0,
+        0,
+        -18.4
+      ],
+      "planPosition": [
+        -18,
+        0,
+        -26.4
+      ]
+    },
+    {
+      "id": "south-shinmon",
+      "name": "南神門",
+      "position": [
+        -18,
+        0.9,
+        -4.8
+      ],
+      "region": "sanctuary",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "preserved",
+      "localAnchor": [
+        0,
+        0,
+        3.2
+      ],
+      "planPosition": [
+        -18,
+        0,
+        -4.8
+      ]
+    },
+    {
+      "id": "west-interface",
+      "name": "西側参拝入口",
+      "position": [
+        -38,
+        0.9,
+        -16
+      ],
+      "region": "sanctuary",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "interface",
+      "notes": "Approach terminates outside preserved corridor. West gate opening is deferred; no road is drawn through the existing timber wall.",
+      "planPosition": [
+        -38,
+        0,
+        -16
+      ]
+    },
+    {
+      "id": "ootorii",
+      "name": "大鳥居",
+      "position": [
+        25,
+        0.757366194425058,
+        8
+      ],
+      "region": "central",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "torii",
+      "rotation": 1.5707963267948966,
+      "planPosition": [
+        25,
+        0,
+        8
+      ]
+    },
+    {
+      "id": "inner-torii",
+      "name": "第三鳥居",
+      "position": [
+        -18,
+        0.811284885012217,
+        3.5
+      ],
+      "region": "central",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "torii",
+      "scale": 0.66,
+      "planPosition": [
+        -18,
+        0,
+        3.5
+      ]
+    },
+    {
+      "id": "sake-barrels",
+      "name": "奉納酒樽",
+      "position": [
+        51,
+        0.7095741988483774,
+        46
+      ],
+      "region": "south",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "facility",
+      "size": [
+        3,
+        3,
+        14
+      ],
+      "planPosition": [
+        51,
+        0,
+        46
+      ]
+    },
+    {
+      "id": "wine-barrels",
+      "name": "奉納葡萄酒樽",
+      "position": [
+        39,
+        0.6909790937893231,
+        46
+      ],
+      "region": "south",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "facility",
+      "size": [
+        3,
+        2.4,
+        14
+      ],
+      "planPosition": [
+        39,
+        0,
+        46
+      ]
+    },
+    {
+      "id": "museum",
+      "name": "明治神宮ミュージアム",
+      "position": [
+        66,
+        0.5556769755407188,
+        86
+      ],
+      "region": "south",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "building",
+      "size": [
+        18,
+        4,
+        10
+      ],
+      "planPosition": [
+        66,
+        0,
+        86
+      ]
+    },
+    {
+      "id": "forest-terrace",
+      "name": "FOREST TERRACE",
+      "position": [
+        67,
+        0.7872397805433954,
+        16
+      ],
+      "region": "east",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "building",
+      "size": [
+        18,
+        4,
+        11
+      ],
+      "planPosition": [
+        67,
+        0,
+        16
+      ]
+    },
+    {
+      "id": "garden-entry",
+      "name": "御苑入口",
+      "position": [
+        28,
+        0.6908286139354697,
+        35
+      ],
+      "region": "garden",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/whattosee/garden/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "garden",
+      "planPosition": [
+        28,
+        0,
+        35
+      ]
+    },
+    {
+      "id": "south-pond",
+      "name": "南池",
+      "position": [
+        -1,
+        0.12,
+        89
+      ],
+      "region": "garden",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/whattosee/garden/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "water",
+      "planPosition": [
+        -1,
+        0,
+        89
+      ]
+    },
+    {
+      "id": "iris-field",
+      "name": "菖蒲田",
+      "position": [
+        -21,
+        0.4956535759937081,
+        51
+      ],
+      "region": "garden",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/whattosee/garden/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "garden",
+      "planPosition": [
+        -21,
+        0,
+        51
+      ]
+    },
+    {
+      "id": "kiyomasa-well",
+      "name": "清正井",
+      "position": [
+        -31,
+        0.4600189656410391,
+        32
+      ],
+      "region": "garden",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/whattosee/garden/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "garden",
+      "planPosition": [
+        -31,
+        0,
+        32
+      ]
+    },
+    {
+      "id": "kakuuntei",
+      "name": "隔雲亭",
+      "position": [
+        -9,
+        0.5375561699413828,
+        67
+      ],
+      "region": "garden",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/whattosee/garden/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "building",
+      "size": [
+        10,
+        3.5,
+        6
+      ],
+      "planPosition": [
+        -9,
+        0,
+        67
+      ]
+    },
+    {
+      "id": "treasure-museum",
+      "name": "宝物殿",
+      "position": [
+        -30,
+        1.1375747991664504,
+        -109
+      ],
+      "region": "north",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "building",
+      "size": [
+        30,
+        6,
+        12
+      ],
+      "planPosition": [
+        -30,
+        0,
+        -109
+      ]
+    },
+    {
+      "id": "north-pond",
+      "name": "北池",
+      "position": [
+        -12,
+        0.6000000000000001,
+        -87
+      ],
+      "region": "north",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "water",
+      "planPosition": [
+        -12,
+        0,
+        -87
+      ]
+    },
+    {
+      "id": "north-lawn",
+      "name": "北池前の芝地",
+      "position": [
+        -29,
+        1.1211130366283042,
+        -73
+      ],
+      "region": "north",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "garden",
+      "planPosition": [
+        -29,
+        0,
+        -73
+      ]
+    },
+    {
+      "id": "shiseikan",
+      "name": "至誠館",
+      "position": [
+        -59,
+        1.176541208897815,
+        -105
+      ],
+      "region": "north",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "identity": "official-map-confirmed",
+        "relativePosition": "schematic-map-confirmed",
+        "worldCoordinates": "artistic-approximation"
+      },
+      "kind": "building",
+      "size": [
+        15,
+        4,
+        11
+      ],
+      "planPosition": [
+        -59,
+        0,
+        -105
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "garden",
+      "bounds": {
+        "min": [
+          -44,
+          0,
+          20
+        ],
+        "max": [
+          30,
+          2,
+          103
+        ]
+      },
+      "kind": "garden",
+      "representation": "ground-zone",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg"
+      ],
+      "confidence": "artistic-boundary-approximation"
+    },
+    {
+      "id": "north-lawn",
+      "bounds": {
+        "min": [
+          -65,
+          0,
+          -97
+        ],
+        "max": [
+          28,
+          2,
+          -60
+        ]
+      },
+      "kind": "lawn",
+      "representation": "ground-zone",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg"
+      ],
+      "confidence": "artistic-boundary-approximation"
+    },
+    {
+      "id": "forest-nw",
+      "bounds": {
+        "min": [
+          -81,
+          0,
+          -107
+        ],
+        "max": [
+          -65,
+          7.3,
+          -62
+        ]
+      },
+      "kind": "forest",
+      "representation": "low-poly-volume",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg"
+      ],
+      "confidence": "artistic-boundary-approximation"
+    },
+    {
+      "id": "forest-north",
+      "bounds": {
+        "min": [
+          -16,
+          0,
+          -122
+        ],
+        "max": [
+          44,
+          6.8,
+          -94
+        ]
+      },
+      "kind": "forest",
+      "representation": "low-poly-volume",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg"
+      ],
+      "confidence": "artistic-boundary-approximation"
+    },
+    {
+      "id": "forest-middle",
+      "bounds": {
+        "min": [
+          -43,
+          0,
+          -67
+        ],
+        "max": [
+          37,
+          7.4,
+          -37
+        ]
+      },
+      "kind": "forest",
+      "representation": "low-poly-volume",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg"
+      ],
+      "confidence": "artistic-boundary-approximation"
+    },
+    {
+      "id": "forest-west",
+      "bounds": {
+        "min": [
+          -82,
+          0,
+          -44
+        ],
+        "max": [
+          -37,
+          8.2,
+          45
+        ]
+      },
+      "kind": "forest",
+      "representation": "low-poly-volume",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg"
+      ],
+      "confidence": "artistic-boundary-approximation"
+    },
+    {
+      "id": "forest-east",
+      "bounds": {
+        "min": [
+          51,
+          0,
+          -76
+        ],
+        "max": [
+          84,
+          7.4,
+          5
+        ]
+      },
+      "kind": "forest",
+      "representation": "low-poly-volume",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg"
+      ],
+      "confidence": "artistic-boundary-approximation"
+    },
+    {
+      "id": "forest-garden-edge",
+      "bounds": {
+        "min": [
+          22,
+          0,
+          44
+        ],
+        "max": [
+          35,
+          5.8,
+          97
+        ]
+      },
+      "kind": "forest",
+      "representation": "low-poly-volume",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg"
+      ],
+      "confidence": "artistic-boundary-approximation"
+    },
+    {
+      "id": "forest-se",
+      "bounds": {
+        "min": [
+          56,
+          0,
+          37
+        ],
+        "max": [
+          79,
+          6.5,
+          75
+        ]
+      },
+      "kind": "forest",
+      "representation": "low-poly-volume",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg"
+      ],
+      "confidence": "artistic-boundary-approximation"
+    },
+    {
+      "id": "forest-south-tip",
+      "bounds": {
+        "min": [
+          59,
+          0,
+          94
+        ],
+        "max": [
+          69,
+          5.6,
+          120
+        ]
+      },
+      "kind": "forest",
+      "representation": "low-poly-volume",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg"
+      ],
+      "confidence": "artistic-boundary-approximation"
+    },
+    {
+      "id": "forest-sw",
+      "bounds": {
+        "min": [
+          -55,
+          0,
+          52
+        ],
+        "max": [
+          39,
+          6.5,
+          124
+        ]
+      },
+      "kind": "forest",
+      "representation": "low-poly-volume",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg"
+      ],
+      "confidence": "artistic-boundary-approximation"
+    },
+    {
+      "id": "forest-south",
+      "bounds": {
+        "min": [
+          28,
+          0,
+          80
+        ],
+        "max": [
+          49,
+          6.2,
+          120
+        ]
+      },
+      "kind": "forest",
+      "representation": "low-poly-volume",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/",
+        "https://www.meijijingu.or.jp/en/access/images/access_map02.jpg"
+      ],
+      "confidence": "artistic-boundary-approximation"
+    },
+    {
+      "id": "sanctuary",
+      "bounds": {
+        "min": [
+          -40,
+          0,
+          -44
+        ],
+        "max": [
+          17,
+          14,
+          -3
+        ]
+      },
+      "kind": "preserved-v1-geometry"
+    }
+  ],
+  "elevation": {
+    "source": "artistic-approximation",
+    "range": "gentle sub-2-unit relief; no surveyed DEM",
+    "coreLevel": 0.9
+  },
+  "pathNodes": {
+    "south": [
+      55,
+      124
+    ],
+    "southBend": [
+      53,
+      101
+    ],
+    "barrels": [
+      45,
+      46
+    ],
+    "southJunction": [
+      42,
+      16
+    ],
+    "junction": [
+      34,
+      8
+    ],
+    "shrineFront": [
+      -18,
+      7
+    ],
+    "southGate": [
+      -18,
+      -4.8
+    ],
+    "north": [
+      55,
+      -95
+    ],
+    "northBend": [
+      49,
+      -70
+    ],
+    "northMid": [
+      43,
+      -39
+    ],
+    "west": [
+      -84,
+      -65
+    ],
+    "westBend": [
+      -70,
+      -52
+    ],
+    "westMid": [
+      -61,
+      -29
+    ],
+    "westGate": [
+      -38,
+      -16
+    ],
+    "lawnEast": [
+      36,
+      -82
+    ],
+    "lawnWest": [
+      -56,
+      -68
+    ],
+    "treasure": [
+      -30,
+      -101
+    ],
+    "gardenEntry": [
+      28,
+      35
+    ],
+    "iris": [
+      -21,
+      51
+    ],
+    "well": [
+      -31,
+      32
+    ],
+    "pondView": [
+      10,
+      77
+    ]
+  },
+  "pathEdges": [
+    {
+      "id": "south-entry",
+      "from": "south",
+      "to": "southBend",
+      "via": [],
+      "width": 4.8,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "south-main",
+      "from": "southBend",
+      "to": "barrels",
+      "via": [
+        [
+          51,
+          82
+        ],
+        [
+          47,
+          64
+        ]
+      ],
+      "width": 4.8,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "south-to-junction",
+      "from": "barrels",
+      "to": "southJunction",
+      "via": [
+        [
+          43,
+          31
+        ]
+      ],
+      "width": 4.8,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "north-south-join",
+      "from": "southJunction",
+      "to": "junction",
+      "via": [],
+      "width": 4.8,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "inner-approach",
+      "from": "junction",
+      "to": "shrineFront",
+      "via": [
+        [
+          18,
+          8
+        ],
+        [
+          -4,
+          8
+        ]
+      ],
+      "width": 5.4,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "shrine-entry",
+      "from": "shrineFront",
+      "to": "southGate",
+      "via": [],
+      "width": 5.4,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "north-entry",
+      "from": "north",
+      "to": "northBend",
+      "via": [],
+      "width": 4.8,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "north-main",
+      "from": "northBend",
+      "to": "northMid",
+      "via": [
+        [
+          46,
+          -54
+        ]
+      ],
+      "width": 4.8,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "north-to-junction",
+      "from": "northMid",
+      "to": "junction",
+      "via": [
+        [
+          42,
+          -15
+        ],
+        [
+          39,
+          0
+        ]
+      ],
+      "width": 4.8,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "west-entry",
+      "from": "west",
+      "to": "westBend",
+      "via": [],
+      "width": 4.8,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "west-main",
+      "from": "westBend",
+      "to": "westMid",
+      "via": [
+        [
+          -67,
+          -40
+        ]
+      ],
+      "width": 4.8,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "west-to-shrine",
+      "from": "westMid",
+      "to": "westGate",
+      "via": [
+        [
+          -54,
+          -21
+        ]
+      ],
+      "width": 4.8,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "north-lawn-link",
+      "from": "northBend",
+      "to": "lawnEast",
+      "via": [],
+      "width": 2.5,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "lawn-front-link",
+      "from": "lawnEast",
+      "to": "lawnWest",
+      "via": [
+        [
+          14,
+          -67
+        ],
+        [
+          -19,
+          -64
+        ]
+      ],
+      "width": 2.5,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "west-lawn-link",
+      "from": "lawnWest",
+      "to": "westBend",
+      "via": [
+        [
+          -63,
+          -62
+        ]
+      ],
+      "width": 2.5,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "treasure-link",
+      "from": "lawnWest",
+      "to": "treasure",
+      "via": [
+        [
+          -58,
+          -86
+        ],
+        [
+          -50,
+          -99
+        ],
+        [
+          -38,
+          -101
+        ]
+      ],
+      "width": 2.5,
+      "type": "approach",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "garden-entrance",
+      "from": "southJunction",
+      "to": "gardenEntry",
+      "via": [
+        [
+          34,
+          25
+        ]
+      ],
+      "width": 2.1,
+      "type": "garden",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "garden-iris",
+      "from": "gardenEntry",
+      "to": "iris",
+      "via": [
+        [
+          12,
+          37
+        ],
+        [
+          -3,
+          45
+        ]
+      ],
+      "width": 1.6,
+      "type": "garden",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "garden-well",
+      "from": "iris",
+      "to": "well",
+      "via": [
+        [
+          -27,
+          43
+        ]
+      ],
+      "width": 1.5,
+      "type": "garden",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    },
+    {
+      "id": "garden-south-pond",
+      "from": "gardenEntry",
+      "to": "pondView",
+      "via": [
+        [
+          22,
+          52
+        ],
+        [
+          18,
+          66
+        ]
+      ],
+      "width": 1.6,
+      "type": "garden",
+      "source": [
+        "https://www.meijijingu.or.jp/en/map/"
+      ],
+      "confidence": {
+        "connection": "official-map-derived",
+        "curve": "artistic-approximation"
+      }
+    }
+  ],
+  "pathSamples": [
+    {
+      "x": 55,
+      "z": 124,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.94285714285714,
+      "z": 123.34285714285714,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.885714285714286,
+      "z": 122.68571428571428,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.82857142857143,
+      "z": 122.02857142857142,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.77142857142857,
+      "z": 121.37142857142857,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.714285714285715,
+      "z": 120.71428571428571,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.65714285714286,
+      "z": 120.05714285714285,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.6,
+      "z": 119.39999999999999,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.542857142857144,
+      "z": 118.74285714285713,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.48571428571429,
+      "z": 118.08571428571427,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.42857142857143,
+      "z": 117.42857142857142,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.37142857142857,
+      "z": 116.77142857142856,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.31428571428571,
+      "z": 116.11428571428569,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.25714285714285,
+      "z": 115.45714285714284,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.199999999999996,
+      "z": 114.79999999999998,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.14285714285714,
+      "z": 114.14285714285712,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.08571428571428,
+      "z": 113.48571428571427,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 54.028571428571425,
+      "z": 112.82857142857141,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.97142857142857,
+      "z": 112.17142857142855,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.91428571428571,
+      "z": 111.5142857142857,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.857142857142854,
+      "z": 110.85714285714285,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.8,
+      "z": 110.19999999999999,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.74285714285714,
+      "z": 109.54285714285713,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.68571428571428,
+      "z": 108.88571428571427,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.628571428571426,
+      "z": 108.22857142857141,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.57142857142857,
+      "z": 107.57142857142856,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.51428571428571,
+      "z": 106.91428571428571,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.457142857142856,
+      "z": 106.25714285714285,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.4,
+      "z": 105.6,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.34285714285714,
+      "z": 104.94285714285714,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.285714285714285,
+      "z": 104.28571428571428,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.22857142857143,
+      "z": 103.62857142857143,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.17142857142857,
+      "z": 102.97142857142858,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.114285714285714,
+      "z": 102.31428571428572,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53.05714285714286,
+      "z": 101.65714285714286,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53,
+      "z": 101,
+      "width": 4.8,
+      "id": "south-entry"
+    },
+    {
+      "x": 53,
+      "z": 101,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.9318657850968,
+      "z": 100.34080684543923,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.86603124947815,
+      "z": 99.68136977789734,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.802226100919306,
+      "z": 99.0217256903331,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.74018294356066,
+      "z": 98.36192432105773,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.679632725924314,
+      "z": 97.70198188962415,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.62030862844112,
+      "z": 97.04192332680415,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.56194569638951,
+      "z": 96.38178198325976,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.504278920704735,
+      "z": 95.72158081580223,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.44704371285176,
+      "z": 95.06134003322869,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.38997637123236,
+      "z": 94.40108537599662,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.33281297235204,
+      "z": 93.74083822146899,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.27528976322208,
+      "z": 93.08062296024382,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.21714282907438,
+      "z": 92.4204659264922,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.158106550957065,
+      "z": 91.76038084092202,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.09791632309419,
+      "z": 91.10040220113227,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 52.036306199496416,
+      "z": 90.44056088122232,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 51.97300750990588,
+      "z": 89.78087260096147,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 51.90775191754545,
+      "z": 89.12137302125576,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 51.84027031235381,
+      "z": 88.46210651741242,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 51.77028972874209,
+      "z": 87.80309811543161,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 51.69753575072783,
+      "z": 87.14438034903202,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 51.621735323063476,
+      "z": 86.48601796992291,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 51.54261026932232,
+      "z": 85.82805031520503,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 51.459878600440575,
+      "z": 85.17050812694835,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 51.373263067507715,
+      "z": 84.51348069347156,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 51.282479857668136,
+      "z": 83.85702429276849,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 51.187239324985484,
+      "z": 83.20117525564933,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 51.08726045475887,
+      "z": 82.54604850267664,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 50.98222057032335,
+      "z": 81.89172448829447,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 50.870446707328455,
+      "z": 81.23849790156387,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 50.751538853907476,
+      "z": 80.58654545810343,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 50.62604323028757,
+      "z": 79.93582352718167,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 50.49451183886588,
+      "z": 79.28629246191035,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 50.35749908560006,
+      "z": 78.63790256723011,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 50.21555409744908,
+      "z": 77.99056393582885,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 50.0692324846176,
+      "z": 77.34420573761848,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 49.91908478914028,
+      "z": 76.69872555963394,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 49.76566082530484,
+      "z": 76.05401216203852,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 49.60951268737551,
+      "z": 75.4099588477197,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 49.45118671686014,
+      "z": 74.76643075117909,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 49.29123390558274,
+      "z": 74.12330795698126,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 49.13020306429962,
+      "z": 73.48045710012777,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 48.96864102783783,
+      "z": 72.83773204466671,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 48.80710191330027,
+      "z": 72.19500991534922,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 48.64613380154618,
+      "z": 71.5521372069835,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 48.486293046090196,
+      "z": 70.90898588452717,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 48.32813708074757,
+      "z": 70.26542413868457,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 48.172221770162864,
+      "z": 69.62130451973653,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 48.01911587519712,
+      "z": 68.97652321582618,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 47.86938222211379,
+      "z": 68.33094222730331,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 47.723594886969394,
+      "z": 67.68446201318679,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 47.58232982301614,
+      "z": 67.0369838596409,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 47.44616373857178,
+      "z": 66.38840541230748,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 47.31568353870761,
+      "z": 65.73866888191628,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 47.19147230807483,
+      "z": 65.0876988454533,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 47.07412000124068,
+      "z": 64.43546099422595,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 46.96405858147205,
+      "z": 63.781948882481196,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 46.85960161055903,
+      "z": 63.127515739133294,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 46.759924244799755,
+      "z": 62.47234758526427,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 46.664752359863215,
+      "z": 61.816497612416875,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 46.573815091311566,
+      "z": 61.1600553995414,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 46.48683424003484,
+      "z": 60.50307234484595,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 46.40353221524929,
+      "z": 59.845614904176756,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 46.32362831685022,
+      "z": 59.187735463196326,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 46.24684057825045,
+      "z": 58.52948394673332,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 46.17288615056888,
+      "z": 57.87090966849897,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 46.101480433641846,
+      "z": 57.21205196474009,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 46.0323388329118,
+      "z": 56.552954518472355,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.96517532597106,
+      "z": 55.89365100578252,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.89970394555308,
+      "z": 55.23417809095191,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.83563796252549,
+      "z": 54.574566767842896,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.77269050121892,
+      "z": 53.914847800395286,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.710574416788155,
+      "z": 53.25505005076445,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.64900239790014,
+      "z": 52.59520118027257,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.58768706572365,
+      "z": 51.935328453844015,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.5263409781219,
+      "z": 51.275458598034845,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.4646766912813,
+      "z": 50.61561830546399,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.40240685764577,
+      "z": 49.95583512229713,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.33924416943285,
+      "z": 49.296136651558356,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.27490156035986,
+      "z": 48.636552416053306,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.209092162202325,
+      "z": 47.97711301865082,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.1415293940941,
+      "z": 47.31785059752453,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45.071927297628214,
+      "z": 46.65880141909391,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 44.99999999999999,
+      "z": 46,
+      "width": 4.8,
+      "id": "south-main"
+    },
+    {
+      "x": 45,
+      "z": 46,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 44.9124362468164,
+      "z": 45.35004182104014,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 44.82326050779742,
+      "z": 44.70030186982612,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 44.732714871650764,
+      "z": 44.05075074011165,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 44.6410410103466,
+      "z": 43.4013590492035,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 44.548479560464166,
+      "z": 42.75209265948931,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 44.45527101916238,
+      "z": 42.102918586365696,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 44.36165561136082,
+      "z": 41.45380348488544,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 44.26787317111214,
+      "z": 40.80471228418891,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 44.17416358879614,
+      "z": 40.155610714688294,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 44.08076667620808,
+      "z": 39.506463782680854,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.9879225303025,
+      "z": 38.85723770949968,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.89587151679042,
+      "z": 38.207899264272,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.804854130168856,
+      "z": 37.55841420646777,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.7151117551634,
+      "z": 36.9087521811935,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.62688624621252,
+      "z": 36.25888334170147,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.540419770186645,
+      "z": 35.60877668776294,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.45595584590767,
+      "z": 34.958407505769166,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.37373859126519,
+      "z": 34.30775168448849,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.294012560139635,
+      "z": 33.656784071268476,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.21702391317978,
+      "z": 33.0054879835667,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.14301939469096,
+      "z": 32.353847406107114,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.072246210591345,
+      "z": 31.701845847494706,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 43.004953139448595,
+      "z": 31.04947714436585,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.94132488920489,
+      "z": 30.396741786793488,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.881222244921354,
+      "z": 29.743670555339847,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.82440387110058,
+      "z": 29.090306281272863,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.77062690435059,
+      "z": 28.436684594844074,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.71964757359171,
+      "z": 27.782838128596428,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.67122145251095,
+      "z": 27.12879800134799,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.62510335482753,
+      "z": 26.47459079890518,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.58104765630903,
+      "z": 25.82024134773361,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.53880834342083,
+      "z": 25.16577226127418,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.49813905903641,
+      "z": 24.51120350469124,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.45879325369802,
+      "z": 23.856553874775862,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.42052419048274,
+      "z": 23.201840431179775,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.38308500191071,
+      "z": 22.547078898582164,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.346228748961565,
+      "z": 21.892284313595816,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.30970842791456,
+      "z": 21.237470893131462,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.27327700733131,
+      "z": 20.582652515019305,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.236687447958694,
+      "z": 19.927842955118685,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.19969272496946,
+      "z": 19.273056179072576,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.162045850567566,
+      "z": 18.61830661447884,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.12349989504957,
+      "z": 17.96360933619938,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.08380803750299,
+      "z": 17.30898065470197,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42.04272357869401,
+      "z": 16.654437927243308,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42,
+      "z": 16,
+      "width": 4.8,
+      "id": "south-to-junction"
+    },
+    {
+      "x": 42,
+      "z": 16,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 41.529411764705884,
+      "z": 15.52941176470588,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 41.05882352941177,
+      "z": 15.058823529411764,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 40.588235294117645,
+      "z": 14.588235294117645,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 40.11764705882353,
+      "z": 14.11764705882353,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 39.64705882352941,
+      "z": 13.647058823529413,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 39.1764705882353,
+      "z": 13.176470588235295,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 38.70588235294118,
+      "z": 12.70588235294118,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 38.23529411764706,
+      "z": 12.23529411764706,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 37.76470588235294,
+      "z": 11.764705882352944,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 37.294117647058826,
+      "z": 11.294117647058824,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 36.82352941176471,
+      "z": 10.823529411764707,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 36.35294117647059,
+      "z": 10.352941176470589,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 35.88235294117647,
+      "z": 9.88235294117647,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 35.411764705882355,
+      "z": 9.411764705882353,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 34.94117647058823,
+      "z": 8.941176470588234,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 34.470588235294116,
+      "z": 8.470588235294114,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 34,
+      "z": 7.999999999999998,
+      "width": 4.8,
+      "id": "north-south-join"
+    },
+    {
+      "x": 34,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 33.34123646570289,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 32.682513148467244,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 32.02381253630277,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 31.36512093947014,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 30.70640759847108,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 30.047685709847524,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 29.388975174337048,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 28.730267936622415,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 28.071556474862533,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 27.412834902773305,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 26.754134785540792,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 26.095435747627747,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 25.43672819188674,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 24.778000220250604,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 24.119263617894596,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 23.46059506078987,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 22.801897706090827,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 22.14314657108068,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 21.484437773955783,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 20.825775218706976,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 20.167011603242806,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 19.50832211239073,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 18.84964117152639,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 18.19083873270763,
+      "z": 8,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 17.532285882960302,
+      "z": 8.000357925521135,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 16.873627628302778,
+      "z": 8.001973256747272,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 16.21492468887293,
+      "z": 8.004714151193882,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 15.556205304359763,
+      "z": 8.008408039577885,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 14.89748379296151,
+      "z": 8.012900240142798,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 14.238765866084268,
+      "z": 8.01805062930927,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 13.58005235323609,
+      "z": 8.02373093254208,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 12.921341761821088,
+      "z": 8.029822496228865,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 12.262631980244276,
+      "z": 8.036214433757534,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 11.603921349559037,
+      "z": 8.042802062897733,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 10.945209269036358,
+      "z": 8.049485569342382,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 10.286496457762468,
+      "z": 8.05616884447121,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 9.627784963002043,
+      "z": 8.062758455209023,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 8.969077983332767,
+      "z": 8.069162711084585,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 8.31038910843421,
+      "z": 8.075290712421658,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 7.651694799624934,
+      "z": 8.081051953161907,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 6.992984956300201,
+      "z": 8.086354993641503,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 6.334263971899489,
+      "z": 8.091106660877738,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 5.675536364121943,
+      "z": 8.09521134700202,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 5.0168063078797855,
+      "z": 8.098570127216128,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 4.358077229597103,
+      "z": 8.101079804857712,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 3.6993514944890666,
+      "z": 8.102631856055169,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 3.040630226156825,
+      "z": 8.10311124228547,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 2.3819133090956806,
+      "z": 8.102395053411323,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 1.723199640574188,
+      "z": 8.10035093608483,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 1.0644877203063445,
+      "z": 8.096835252230932,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": 0.4057766965581746,
+      "z": 8.09169089892901,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -0.25293197113486654,
+      "z": 8.084744703379986,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -0.9116320152463686,
+      "z": 8.075804283376845,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -1.570308732991533,
+      "z": 8.064654232841487,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -2.2289338218790475,
+      "z": 8.051051450828284,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -2.8874581173200635,
+      "z": 8.034719377089294,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -3.5458014541893084,
+      "z": 8.015340822394572,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -4.20400277870609,
+      "z": 7.9925521438643425,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -4.862115236060495,
+      "z": 7.966204640306021,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -5.520139371833547,
+      "z": 7.936369135426389,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -6.1780408161147005,
+      "z": 7.903137088975235,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -6.83574463527871,
+      "z": 7.866631676577582,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -7.493251190334852,
+      "z": 7.827003414334697,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -8.15056137657915,
+      "z": 7.784434830299621,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -8.8077517466387,
+      "z": 7.739135986236191,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -9.464755852943346,
+      "z": 7.691359480699481,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -10.12157922462474,
+      "z": 7.641385504001377,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -10.778237916588369,
+      "z": 7.5895236614915715,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -11.434758728201261,
+      "z": 7.536109947856477,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -12.091190402023807,
+      "z": 7.48150184042657,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -12.747576530948265,
+      "z": 7.426075717783269,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -13.403911191230785,
+      "z": 7.370225210501328,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -14.060245098615253,
+      "z": 7.314346070863747,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -14.716622249087392,
+      "z": 7.258835082847577,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -15.373033590956776,
+      "z": 7.204087499173892,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -16.029544924238667,
+      "z": 7.150480081700783,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -16.686193398879713,
+      "z": 7.098374276547495,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -17.343006291437337,
+      "z": 7.048109676642757,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -18,
+      "z": 7,
+      "width": 5.4,
+      "id": "inner-approach"
+    },
+    {
+      "x": -18,
+      "z": 7,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": 6.344444444444445,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": 5.688888888888889,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": 5.033333333333333,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": 4.377777777777778,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": 3.7222222222222228,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": 3.0666666666666678,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": 2.411111111111112,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": 1.755555555555557,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": 1.1000000000000014,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": 0.44444444444444575,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": -0.21111111111110992,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": -0.8666666666666629,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": -1.5222222222222204,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": -2.177777777777775,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": -2.8333333333333313,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": -3.4888888888888845,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": -4.144444444444442,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": -18,
+      "z": -4.799999999999997,
+      "width": 5.4,
+      "id": "shrine-entry"
+    },
+    {
+      "x": 55,
+      "z": -95,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 54.84615384615385,
+      "z": -94.35897435897436,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 54.69230769230769,
+      "z": -93.71794871794872,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 54.53846153846154,
+      "z": -93.07692307692308,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 54.38461538461539,
+      "z": -92.43589743589743,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 54.23076923076923,
+      "z": -91.7948717948718,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 54.07692307692308,
+      "z": -91.15384615384615,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 53.92307692307692,
+      "z": -90.51282051282051,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 53.76923076923077,
+      "z": -89.87179487179488,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 53.61538461538461,
+      "z": -89.23076923076923,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 53.46153846153846,
+      "z": -88.58974358974359,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 53.30769230769231,
+      "z": -87.94871794871796,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 53.15384615384615,
+      "z": -87.3076923076923,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 53,
+      "z": -86.66666666666666,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 52.84615384615385,
+      "z": -86.02564102564102,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 52.69230769230769,
+      "z": -85.38461538461537,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 52.53846153846153,
+      "z": -84.74358974358972,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 52.38461538461538,
+      "z": -84.10256410256409,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 52.230769230769226,
+      "z": -83.46153846153844,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 52.07692307692307,
+      "z": -82.82051282051279,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 51.92307692307692,
+      "z": -82.17948717948715,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 51.76923076923076,
+      "z": -81.5384615384615,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 51.615384615384606,
+      "z": -80.89743589743586,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 51.46153846153845,
+      "z": -80.2564102564102,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 51.30769230769229,
+      "z": -79.61538461538457,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 51.153846153846146,
+      "z": -78.97435897435892,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 50.99999999999999,
+      "z": -78.33333333333329,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 50.84615384615384,
+      "z": -77.69230769230765,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 50.692307692307686,
+      "z": -77.05128205128202,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 50.53846153846153,
+      "z": -76.41025641025638,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 50.38461538461538,
+      "z": -75.76923076923075,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 50.230769230769226,
+      "z": -75.12820512820511,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 50.07692307692307,
+      "z": -74.48717948717947,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 49.92307692307692,
+      "z": -73.84615384615383,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 49.76923076923077,
+      "z": -73.20512820512819,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 49.61538461538461,
+      "z": -72.56410256410254,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 49.46153846153846,
+      "z": -71.9230769230769,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 49.30769230769231,
+      "z": -71.28205128205128,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 49.15384615384615,
+      "z": -70.64102564102564,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 49,
+      "z": -70,
+      "width": 4.8,
+      "id": "north-entry"
+    },
+    {
+      "x": 49,
+      "z": -70,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 48.87891768589973,
+      "z": -69.35340780806256,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 48.758106731588036,
+      "z": -68.70676449710851,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 48.637529071883506,
+      "z": -68.0600773673625,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 48.517146987318775,
+      "z": -67.4133535911976,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 48.39692304703068,
+      "z": -66.76660023547748,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 48.27682005265389,
+      "z": -66.11982428252836,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 48.15680098301973,
+      "z": -65.4730326500159,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 48.03682893946656,
+      "z": -64.8262322099907,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 47.91686709157156,
+      "z": -64.1794298073602,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 47.79687862311579,
+      "z": -63.53263227803681,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 47.67682667809622,
+      "z": -62.885846467011504,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 47.5566743065982,
+      "z": -62.23907924659969,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 47.4363844103414,
+      "z": -61.59233753510892,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 47.31591968771007,
+      "z": -60.9456283161816,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 47.19524257807599,
+      "z": -60.29895865907279,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 47.07431520521811,
+      "z": -59.65233574013188,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 46.95309931963797,
+      "z": -59.005766865768905,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 46.83155623956381,
+      "z": -58.35925949720067,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 46.70964679042854,
+      "z": -57.71282127728888,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 46.58733124259823,
+      "z": -57.06646005980348,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 46.46456924711771,
+      "z": -56.42018394146784,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 46.34131976922808,
+      "z": -55.774001297169896,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 46.21754101939823,
+      "z": -55.12792081875513,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 46.09319038159778,
+      "z": -54.48195155785271,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 45.96822351623749,
+      "z": -53.836097550154086,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 45.84262159685379,
+      "z": -53.19036091706362,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 45.71641823177888,
+      "z": -52.544747385017644,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 45.58965129337419,
+      "z": -51.89924961037289,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 45.462358090955625,
+      "z": -51.25385267069801,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 45.3345775865476,
+      "z": -50.60854564005166,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 45.20635248596377,
+      "z": -49.96333228195458,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 45.07772375473284,
+      "z": -49.31820364723817,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 44.94873063518324,
+      "z": -48.67313868941415,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 44.81941789537895,
+      "z": -48.02814085345449,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 44.689828564780186,
+      "z": -47.383202009562794,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 44.560004736534154,
+      "z": -46.738306933347154,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 44.42999084697895,
+      "z": -46.093449980780164,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 44.29983145788414,
+      "z": -45.44862441563174,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 44.169570357580305,
+      "z": -44.80381836362942,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 44.03925225300681,
+      "z": -44.15902359238885,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 43.90892189387993,
+      "z": -43.51423156765706,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 43.77862384108994,
+      "z": -42.86943271019516,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 43.64840301697027,
+      "z": -42.22461952132052,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 43.51830336472842,
+      "z": -41.57978034531298,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 43.38836926010393,
+      "z": -40.934906753174836,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 43.258645728342465,
+      "z": -40.2899950361587,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 43.12917499775501,
+      "z": -39.64502945833662,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 43.00000000000001,
+      "z": -39.00000000000001,
+      "width": 4.8,
+      "id": "north-main"
+    },
+    {
+      "x": 43,
+      "z": -39,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.973740853719356,
+      "z": -38.34081917238269,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.94972742376707,
+      "z": -37.68150575397101,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.92772649722142,
+      "z": -37.022078989093146,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.907515940907196,
+      "z": -36.362558748614504,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.88888319625617,
+      "z": -35.702965661575355,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.87162697997496,
+      "z": -35.04344211129155,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.85554596024004,
+      "z": -34.383865813579945,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.840448318535906,
+      "z": -33.7242335535031,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.82614768247252,
+      "z": -33.06456665355257,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.81246204705361,
+      "z": -32.4049126130464,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.79921115445424,
+      "z": -31.7452614912366,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.78621661445158,
+      "z": -31.085588190056374,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.77330222333473,
+      "z": -30.425915039350894,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.76029198168829,
+      "z": -29.766255561514182,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.74700852172977,
+      "z": -29.10657774592533,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.733274393261354,
+      "z": -28.44691228075267,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.71890984232596,
+      "z": -27.78728120905719,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.70373211309036,
+      "z": -27.127705912767595,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.68755095355591,
+      "z": -26.468065469720106,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.67017635603142,
+      "z": -25.80846541437527,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.65141071092404,
+      "z": -25.148935244793908,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.631049115131944,
+      "z": -24.489495038918005,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.608877136642064,
+      "z": -23.83012967514907,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.58466556812033,
+      "z": -23.170702367951687,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.55818495228046,
+      "z": -22.511392066854942,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.52918786903635,
+      "z": -21.852221122699916,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.49741206840613,
+      "z": -21.193212371302785,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.46257830547222,
+      "z": -20.53438977499657,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.424387875845355,
+      "z": -19.875779307980242,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.3825135443431,
+      "z": -19.2173161869797,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.33660899431113,
+      "z": -18.559061473426535,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.28630423122699,
+      "z": -17.901147026572982,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.23119121990781,
+      "z": -17.243633736073097,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.17082398018053,
+      "z": -16.586596202930554,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.10471299188216,
+      "z": -15.93012705163886,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 42.03231871534125,
+      "z": -15.274342379880192,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 41.95417962941669,
+      "z": -14.61935206703573,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 41.87467609855577,
+      "z": -13.964361559038394,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 41.79402802271898,
+      "z": -13.309497407699611,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 41.71186172007021,
+      "z": -12.654899872036648,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 41.62775337152991,
+      "z": -12.00043740841743,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 41.54130507349348,
+      "z": -11.346327549991852,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 41.45208287964832,
+      "z": -10.69266097788471,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 41.35960127481437,
+      "z": -10.039331420218781,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 41.263393844685304,
+      "z": -9.386567569229928,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 41.16295042370372,
+      "z": -8.734493870653646,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 41.057724229867404,
+      "z": -8.083218578647674,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 40.947104766230886,
+      "z": -7.432710792869055,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 40.830492156483274,
+      "z": -6.783273108100506,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 40.70721877093593,
+      "z": -6.135090517375078,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 40.5765647054172,
+      "z": -5.488369521573217,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 40.437754019609336,
+      "z": -4.843355480719393,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 40.289949082103014,
+      "z": -4.200341463446439,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 40.13224480465058,
+      "z": -3.559678745095078,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 39.96366297606938,
+      "z": -2.921789152948847,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 39.78314700778918,
+      "z": -2.28717943008714,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 39.589557536249764,
+      "z": -1.6564577297296759,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 39.381669497353464,
+      "z": -1.030352245033351,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 39.158122767696,
+      "z": -0.4096019617197335,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 38.917114927128885,
+      "z": 0.20459681693901396,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 38.652828702703715,
+      "z": 0.809029475199851,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 38.36465693581217,
+      "z": 1.4025766735260348,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 38.05443632957953,
+      "z": 1.9847592605116389,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 37.72425242209628,
+      "z": 2.5560070181769987,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 37.376806594266895,
+      "z": 3.116854308329389,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 37.01499605779578,
+      "z": 3.6685428848592974,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 36.6419457862235,
+      "z": 4.21274974116524,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 36.260989549916836,
+      "z": 4.751435239574559,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 35.87550908588486,
+      "z": 5.2868918326032235,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 35.48893224659107,
+      "z": 5.821565902931747,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 35.104708176859226,
+      "z": 6.357926398363911,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 34.72626063141821,
+      "z": 6.898364766192866,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 34.35694429486777,
+      "z": 7.445087003973335,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": 33.99999999999999,
+      "z": 8,
+      "width": 4.8,
+      "id": "north-to-junction"
+    },
+    {
+      "x": -84,
+      "z": -65,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -83.51724137931033,
+      "z": -64.55172413793103,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -83.03448275862068,
+      "z": -64.10344827586206,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -82.55172413793103,
+      "z": -63.6551724137931,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -82.06896551724138,
+      "z": -63.206896551724135,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -81.58620689655172,
+      "z": -62.75862068965517,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -81.10344827586206,
+      "z": -62.310344827586206,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -80.62068965517241,
+      "z": -61.86206896551724,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -80.13793103448275,
+      "z": -61.41379310344827,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -79.6551724137931,
+      "z": -60.96551724137931,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -79.17241379310344,
+      "z": -60.517241379310335,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -78.68965517241378,
+      "z": -60.06896551724137,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -78.20689655172413,
+      "z": -59.620689655172406,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -77.72413793103448,
+      "z": -59.17241379310344,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -77.24137931034483,
+      "z": -58.72413793103448,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -76.75862068965516,
+      "z": -58.27586206896551,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -76.27586206896551,
+      "z": -57.82758620689655,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -75.79310344827586,
+      "z": -57.37931034482758,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -75.3103448275862,
+      "z": -56.93103448275862,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -74.82758620689654,
+      "z": -56.48275862068965,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -74.34482758620689,
+      "z": -56.03448275862068,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -73.86206896551724,
+      "z": -55.58620689655172,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -73.37931034482759,
+      "z": -55.137931034482754,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -72.89655172413792,
+      "z": -54.68965517241379,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -72.41379310344827,
+      "z": -54.241379310344826,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -71.93103448275862,
+      "z": -53.79310344827586,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -71.44827586206897,
+      "z": -53.34482758620689,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -70.9655172413793,
+      "z": -52.89655172413793,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -70.48275862068965,
+      "z": -52.44827586206897,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -70,
+      "z": -52,
+      "width": 4.8,
+      "id": "west-entry"
+    },
+    {
+      "x": -70,
+      "z": -52,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -69.8449445665711,
+      "z": -51.36265813745366,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -69.69704598749104,
+      "z": -50.72361309257936,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -69.5549459496075,
+      "z": -50.083250501857414,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -69.41729150263795,
+      "z": -49.44191874565855,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -69.28273370629196,
+      "z": -48.79992980473011,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -69.14992823750029,
+      "z": -48.157574789325814,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -69.01753415116264,
+      "z": -47.51513541948984,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -68.8842105651782,
+      "z": -46.87288755498383,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -68.74861554929046,
+      "z": -46.23111589007763,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -68.60940378283297,
+      "z": -45.59012138381815,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -68.46522427743757,
+      "z": -44.95022643197736,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -68.31472073192032,
+      "z": -44.31178793271994,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -68.15653436258981,
+      "z": -43.67521378727905,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -67.98930394887216,
+      "z": -43.040959673000074,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -67.81167020507937,
+      "z": -42.40953639373865,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -67.62229042080907,
+      "z": -41.78154192826204,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -67.4198424451312,
+      "z": -41.157641920407606,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -67.20304136440049,
+      "z": -40.538583808338245,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -66.97066179719818,
+      "z": -39.92520831728701,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -66.72216645155409,
+      "z": -39.318178843323935,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -66.45877816782271,
+      "z": -38.71746255158158,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -66.1819925291359,
+      "z": -38.1227969234773,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -65.893269115517,
+      "z": -37.53382810568159,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -65.59402520376365,
+      "z": -36.95012885350182,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -65.28563498553284,
+      "z": -36.37121721230945,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -64.96941377898928,
+      "z": -35.79654011262135,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -64.64663648024681,
+      "z": -35.2255152510397,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -64.31853638929745,
+      "z": -34.65752933304438,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -63.98631256817699,
+      "z": -34.09194842452415,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -63.65113095153897,
+      "z": -33.528114674213185,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -63.31413694357963,
+      "z": -32.96536045368573,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -62.97646367501572,
+      "z": -32.403013269904314,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -62.6392391859289,
+      "z": -31.84039811414186,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -62.30359336885672,
+      "z": -31.27683910862,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -61.97066862010399,
+      "z": -30.711667508340675,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -61.64162855554877,
+      "z": -30.144227358620824,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -61.317663915857025,
+      "z": -29.573877802002016,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -61,
+      "z": -29,
+      "width": 4.8,
+      "id": "west-main"
+    },
+    {
+      "x": -61,
+      "z": -29,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -60.576966421671244,
+      "z": -28.4997622911117,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -60.16882956133061,
+      "z": -27.98728922327321,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -59.77249820704774,
+      "z": -27.465623160850008,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -59.384630705508044,
+      "z": -26.937626050528863,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -59.00172883632778,
+      "z": -26.40601209962069,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -58.62021157249013,
+      "z": -25.8734022280389,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -58.23647603539289,
+      "z": -25.342390567276652,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -57.84695457765151,
+      "z": -24.815613954814623,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -57.44817795649231,
+      "z": -24.295816496145097,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -57.036853196549224,
+      "z": -23.785899892274532,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -56.60996742953989,
+      "z": -23.28895477908495,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -56.16490555308686,
+      "z": -22.808244369932066,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -55.69958115399547,
+      "z": -22.347139813506235,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -55.212576971922275,
+      "z": -21.909013609126735,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -54.70324578267265,
+      "z": -21.49707006621041,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -54.171748679046765,
+      "z": -21.11414335090418,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -53.61921330190191,
+      "z": -20.76226759227804,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -53.048881230564774,
+      "z": -20.440100770527984,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -52.46424968675485,
+      "z": -20.14436306581079,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -51.86841741650982,
+      "z": -19.87208893004587,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -51.26359282637222,
+      "z": -19.62040531306337,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -50.65155034091014,
+      "z": -19.38673133245788,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -50.03372830542383,
+      "z": -19.168757793731082,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -49.41126046716795,
+      "z": -18.964403844498975,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -48.78504848092548,
+      "z": -18.771793961243034,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -48.15581895860351,
+      "z": -18.58923204608412,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -47.52419315949306,
+      "z": -18.41518226607612,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -46.890693896846614,
+      "z": -18.24823598635493,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -46.25567205524378,
+      "z": -18.087064799987985,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -45.61949169446059,
+      "z": -17.930443759505874,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -44.98250098661587,
+      "z": -17.7772189725222,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -44.3449720133961,
+      "z": -17.626272971575755,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -43.707151391980844,
+      "z": -17.476518903914283,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -43.06930733554111,
+      "z": -17.326893923671456,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -42.431673536914076,
+      "z": -17.176329057545047,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -41.79452767785106,
+      "z": -17.02375086763398,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -41.15816277383224,
+      "z": -16.86805772577394,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -40.52280621023889,
+      "z": -16.708080883712523,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -39.8888709980512,
+      "z": -16.542626783366924,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -39.25676248520724,
+      "z": -16.370408055723257,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -38.62695184659635,
+      "z": -16.190036399061626,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": -38,
+      "z": -16,
+      "width": 4.8,
+      "id": "west-to-shrine"
+    },
+    {
+      "x": 49,
+      "z": -70,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 48.51851851851852,
+      "z": -70.44444444444444,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 48.03703703703704,
+      "z": -70.88888888888889,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 47.55555555555555,
+      "z": -71.33333333333334,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 47.07407407407407,
+      "z": -71.77777777777779,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 46.59259259259259,
+      "z": -72.22222222222223,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 46.11111111111111,
+      "z": -72.66666666666667,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 45.629629629629626,
+      "z": -73.11111111111111,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 45.14814814814814,
+      "z": -73.55555555555556,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 44.66666666666666,
+      "z": -74.00000000000001,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 44.185185185185176,
+      "z": -74.44444444444446,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 43.703703703703695,
+      "z": -74.8888888888889,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 43.222222222222214,
+      "z": -75.33333333333334,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 42.74074074074073,
+      "z": -75.77777777777779,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 42.259259259259245,
+      "z": -76.22222222222223,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 41.777777777777764,
+      "z": -76.66666666666667,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 41.29629629629628,
+      "z": -77.11111111111113,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 40.8148148148148,
+      "z": -77.55555555555557,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 40.33333333333332,
+      "z": -78.00000000000001,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 39.85185185185183,
+      "z": -78.44444444444446,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 39.37037037037035,
+      "z": -78.8888888888889,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 38.88888888888888,
+      "z": -79.33333333333334,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 38.40740740740739,
+      "z": -79.77777777777779,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 37.92592592592592,
+      "z": -80.22222222222223,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 37.444444444444436,
+      "z": -80.66666666666667,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 36.96296296296295,
+      "z": -81.11111111111113,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 36.481481481481474,
+      "z": -81.55555555555556,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 36,
+      "z": -82,
+      "width": 2.5,
+      "id": "north-lawn-link"
+    },
+    {
+      "x": 36,
+      "z": -82,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 35.45180660683119,
+      "z": -81.62118981510126,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 34.9081255018351,
+      "z": -81.23590256547263,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 34.36864296599098,
+      "z": -80.84471900280353,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 33.83308564374659,
+      "z": -80.44824859719633,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 33.30106196854898,
+      "z": -80.04701109211067,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 32.77222359257577,
+      "z": -79.64155317495931,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 32.24625342262042,
+      "z": -79.23244196862396,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 31.722735130474145,
+      "z": -78.8201631530784,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 31.20130132095653,
+      "z": -78.40523532098366,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 30.681595128324776,
+      "z": -77.98818165848232,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 30.163201364165477,
+      "z": -77.56947489022406,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 29.64574121217743,
+      "z": -77.14961373268231,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 29.1288278521324,
+      "z": -76.72908829494395,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 28.612061314010163,
+      "z": -76.30837664204911,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 28.095054100763168,
+      "z": -75.88796660339116,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 27.57740485122902,
+      "z": -75.46833535728948,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 27.058734348763863,
+      "z": -75.04997961068152,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 26.53864919055923,
+      "z": -74.63338700052053,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 26.016751543399565,
+      "z": -74.21904507399549,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 25.49268490075786,
+      "z": -73.80747810222279,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 24.966057802398947,
+      "z": -73.3991870393498,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 24.436493567100754,
+      "z": -72.99468958357593,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 23.903661860610143,
+      "z": -72.59454335980382,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 23.367189638985796,
+      "z": -72.19927795584036,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 22.82673792912786,
+      "z": -71.80945288840577,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 22.282011026350304,
+      "z": -71.42566131832591,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 21.73268016063218,
+      "z": -71.0484741571409,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 21.178463039242914,
+      "z": -70.67849493284993,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 20.6191121892892,
+      "z": -70.31634725445332,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 20.054375964697385,
+      "z": -69.96264628512243,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 19.484056463854078,
+      "z": -69.61803253680208,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 18.907968767178847,
+      "z": -69.28314151608028,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 18.32597480327631,
+      "z": -68.9586194796153,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 17.737999365959332,
+      "z": -68.64512492540284,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 17.143927017725286,
+      "z": -68.34326842703427,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 16.543775954226383,
+      "z": -68.05369830021577,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 15.937623093551036,
+      "z": -67.77704917936606,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 15.325416244553072,
+      "z": -67.51385508976044,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 14.707401147839908,
+      "z": -67.2647326584537,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 14.090138889906637,
+      "z": -67.03252300677748,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 13.454928631910066,
+      "z": -66.80943942709241,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 12.822352215437572,
+      "z": -66.60045761122534,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 12.185933094015223,
+      "z": -66.40267063105219,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 11.54637366135889,
+      "z": -66.21578665493521,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 10.903809010943641,
+      "z": -66.03934737828763,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 10.25846431129888,
+      "z": -65.87294100582831,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 9.610919885712931,
+      "z": -65.7162550188376,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 8.960897104120106,
+      "z": -65.56878205963915,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 8.309245181540547,
+      "z": -65.43028984381137,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 7.655655883616117,
+      "z": -65.30030203213443,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 7.000434784134148,
+      "z": -65.17849281018069,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 6.344012797560926,
+      "z": -65.06456379958418,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 5.686090361638506,
+      "z": -64.95810301316597,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 5.027206544085558,
+      "z": -64.85885304864063,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 4.367330145864772,
+      "z": -64.76647418342142,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 3.7063668257893148,
+      "z": -64.68063705716038,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 3.044874187570924,
+      "z": -64.60110660027694,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 2.3826027303013277,
+      "z": -64.52755550008695,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 1.7195580001312996,
+      "z": -64.45970395365904,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 1.056228494124625,
+      "z": -64.3973276053604,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": 0.39234083354174193,
+      "z": -64.34013544013388,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -0.27208508328431213,
+      "z": -64.28787768302944,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -0.9366841723443189,
+      "z": -64.24033718741113,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -1.601626028375791,
+      "z": -64.1972631768337,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -2.2669322913835557,
+      "z": -64.15842612063744,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -2.932380228008313,
+      "z": -64.12361679916849,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -3.5979802978600244,
+      "z": -64.09261780483477,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -4.263818042719318,
+      "z": -64.06521582901941,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -4.9297986063957255,
+      "z": -64.04121145392209,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -5.595787206612988,
+      "z": -64.02041005147319,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -6.261922695250454,
+      "z": -64.0026129480342,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -6.928168544314309,
+      "z": -63.98763207631582,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -7.594398055673154,
+      "z": -63.97528433312398,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -8.260684323890375,
+      "z": -63.96538581763114,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -8.927024454749642,
+      "z": -63.95775770801692,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -9.593378932536396,
+      "z": -63.95222422329098,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -10.259733980527143,
+      "z": -63.94861145793425,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -10.926104177206927,
+      "z": -63.946747397122586,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -11.592466342028654,
+      "z": -63.946461830270025,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -12.258848347843283,
+      "z": -63.947585786817896,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -12.925226728099721,
+      "z": -63.94995120455697,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -13.59157303017534,
+      "z": -63.95339036968232,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -14.257914510021818,
+      "z": -63.95773599571849,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -14.924308331123049,
+      "z": -63.96282097604428,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -15.590651459524567,
+      "z": -63.96847635662428,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -16.25692352319638,
+      "z": -63.97453267329869,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -16.923335895466565,
+      "z": -63.980821318415494,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -17.58970090343772,
+      "z": -63.98716814484834,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -18.255974968296343,
+      "z": -63.993398068617935,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -18.918733965201266,
+      "z": -63.99930437751186,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -19.58845693500545,
+      "z": -64.00696492169074,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -20.254712580491212,
+      "z": -64.01946696121233,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -20.920912901044346,
+      "z": -64.03670777035023,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -21.586922309243278,
+      "z": -64.05851562677336,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -22.25271308994876,
+      "z": -64.08472290804995,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -22.918370952331554,
+      "z": -64.11516992378051,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -23.583874117837972,
+      "z": -64.14969613570486,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -24.24920334543401,
+      "z": -64.18814338715583,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -24.914163011998873,
+      "z": -64.23034404823488,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -25.578917404895442,
+      "z": -64.27615460897498,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -26.24346313480577,
+      "z": -64.32542474654524,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -26.907790355993384,
+      "z": -64.37800589266149,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -27.571862075122905,
+      "z": -64.43374919457797,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -28.235575316138792,
+      "z": -64.49250129860857,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -28.899061452088027,
+      "z": -64.55413145045617,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -29.56231794568065,
+      "z": -64.61849988169055,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -30.22534373035002,
+      "z": -64.68546879484637,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -30.88811833005278,
+      "z": -64.75490007714231,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -31.550563567864078,
+      "z": -64.82665066425048,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -32.21279348235894,
+      "z": -64.90059986378508,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -32.87481219831699,
+      "z": -64.97661721506222,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -33.536624869956384,
+      "z": -65.05457383343891,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -34.1982376076328,
+      "z": -65.13434232728883,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -34.85957661265029,
+      "z": -65.21578666428016,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -35.520733710739215,
+      "z": -65.29879226894214,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -36.18172527272865,
+      "z": -65.38323678766582,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -36.84256062509903,
+      "z": -65.46899806032427,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -37.503249704795294,
+      "z": -65.5559549721131,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -38.16377690969962,
+      "z": -65.64398386719485,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -38.82415936152133,
+      "z": -65.73296617632732,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -39.48443949093407,
+      "z": -65.82278756204737,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -40.14462913345993,
+      "z": -65.91333025660224,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -40.8047404446945,
+      "z": -66.00447707361722,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -41.464785848580426,
+      "z": -66.09611131711316,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -42.12476394401768,
+      "z": -66.18811472958815,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -42.784710864278665,
+      "z": -66.28037457336438,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -43.444641297205926,
+      "z": -66.3727753340863,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -44.104568233075824,
+      "z": -66.46520136506167,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -44.76450467335927,
+      "z": -66.55753704040876,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -45.42446893243925,
+      "z": -66.64966740939546,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -46.08448813627203,
+      "z": -66.74147858179388,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -46.74456643322128,
+      "z": -66.8328532118263,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -47.40471635095393,
+      "z": -66.92367479450877,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -48.06495017229995,
+      "z": -67.01382637596544,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -48.72527988396798,
+      "z": -67.10319046237332,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -49.385758157365885,
+      "z": -67.19165439396365,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -50.04638019963908,
+      "z": -67.27909701141022,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -50.707142688316495,
+      "z": -67.3653966669209,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -51.36805581707546,
+      "z": -67.45043268836001,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -52.02912919686448,
+      "z": -67.5340833989536,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -52.69039620650876,
+      "z": -67.61622903100975,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -53.351913469845925,
+      "z": -67.69675126540938,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -54.01362642671473,
+      "z": -67.77551695956271,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -54.67554159964768,
+      "z": -67.85239936902694,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -55.337664588808494,
+      "z": -67.92727029488226,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -56,
+      "z": -68.00000000000001,
+      "width": 2.5,
+      "id": "lawn-front-link"
+    },
+    {
+      "x": -56,
+      "z": -68,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -56.49716271883263,
+      "z": -67.58137707445889,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -57.00057549047213,
+      "z": -67.17028819086617,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -57.508538332838725,
+      "z": -66.76483427165188,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -58.019348940085145,
+      "z": -66.36297390580665,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -58.53130688638816,
+      "z": -65.96257570021154,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -59.04271323293869,
+      "z": -65.56147185758422,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -59.55186820655988,
+      "z": -65.15751213724046,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -60.057064370218086,
+      "z": -64.7486221068692,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -60.55660271079779,
+      "z": -64.3328451365447,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -61.04879288367192,
+      "z": -63.90839938686024,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -61.53196970290954,
+      "z": -63.47372392799708,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -62.00451894409703,
+      "z": -63.027516745166245,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -62.46490180313008,
+      "z": -62.56877085394961,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -62.91167961361999,
+      "z": -62.09680460188028,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -63.3438424228974,
+      "z": -61.61140698626722,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -63.76222138879788,
+      "z": -61.11403864095411,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -64.16835704731902,
+      "z": -60.60663096598167,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -64.56373204216301,
+      "z": -60.09079643621454,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -64.94973945145028,
+      "z": -59.567907422253036,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -65.3276888272961,
+      "z": -59.03913937495335,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -65.69877139793697,
+      "z": -58.505570671484136,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -66.06417138370763,
+      "z": -57.968069670996435,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -66.42497602348773,
+      "z": -57.427463395184674,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -66.78222319151276,
+      "z": -56.88450871504112,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -67.13692414194806,
+      "z": -56.33989243406899,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -67.49006668841726,
+      "z": -55.794258412402634,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -67.84261510436829,
+      "z": -55.2482388311476,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -68.19552767913623,
+      "z": -54.70245698961602,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -68.54976638924074,
+      "z": -54.157541591787876,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -68.9063188427551,
+      "z": -53.61412269633402,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -69.26617975230684,
+      "z": -53.07289067226227,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -69.63038171842473,
+      "z": -52.53458076728189,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -69.99999999999999,
+      "z": -52,
+      "width": 2.5,
+      "id": "west-lawn-link"
+    },
+    {
+      "x": -56,
+      "z": -68,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -56.07955837287605,
+      "z": -68.6549154475862,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -56.171274122068276,
+      "z": -69.30832968822848,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -56.27337357106394,
+      "z": -69.96029264126686,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -56.38421215596435,
+      "z": -70.610900663054,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -56.50223573087934,
+      "z": -71.26018513574054,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -56.62599713033483,
+      "z": -71.90830664667932,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -56.754164594531275,
+      "z": -72.55565296099175,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -56.885422031964524,
+      "z": -73.2024090818396,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.018487627924394,
+      "z": -73.84875076393683,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.152129143772385,
+      "z": -74.49498814665728,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.285108277232,
+      "z": -75.14136736031253,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.41616815329824,
+      "z": -75.78808236498291,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.54406448032666,
+      "z": -76.4355047900957,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.667475879225194,
+      "z": -77.08381970644237,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.785017613202115,
+      "z": -77.73315859385143,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.89524132046269,
+      "z": -78.38367957546843,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.996646614805314,
+      "z": -79.0357765472338,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -58.08756178666603,
+      "z": -79.68947754613986,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -58.16617937363239,
+      "z": -80.34469828099803,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -58.23055915986228,
+      "z": -81.00139845358595,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -58.27858938375624,
+      "z": -81.65943744736217,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -58.30797000102214,
+      "z": -82.31853618480024,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -58.31620232037221,
+      "z": -82.97838867556132,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -58.300582379570635,
+      "z": -83.63812422093403,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -58.25825167794569,
+      "z": -84.29663962649498,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -58.18623896944593,
+      "z": -84.95253403090682,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -58.08154894488149,
+      "z": -85.60397859045487,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.94254661785297,
+      "z": -86.24868044786298,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.77944183167934,
+      "z": -86.88826174789561,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.59678558488337,
+      "z": -87.52223225272877,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.39585574482729,
+      "z": -88.1507258812614,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -57.17775994367718,
+      "z": -88.77351391714065,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -56.94338476729733,
+      "z": -89.39038251537704,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -56.69342960759756,
+      "z": -90.00111567778032,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -56.42843315579141,
+      "z": -90.60547987101336,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -56.148793217238776,
+      "z": -91.20321171841803,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -55.854781119746264,
+      "z": -91.79400719443505,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -55.546551706309664,
+      "z": -92.37751103948649,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -55.224149689592785,
+      "z": -92.95330526123861,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -54.88751299439858,
+      "z": -93.52089561926985,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -54.53647362457647,
+      "z": -94.07969491693969,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -54.17075656627074,
+      "z": -94.6290017503614,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -53.78997729195219,
+      "z": -95.16797308722722,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -53.393638581652574,
+      "z": -95.69558866265182,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -52.9811276658482,
+      "z": -96.21060468381322,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -52.55171517395661,
+      "z": -96.71149374435717,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -52.10441325399058,
+      "z": -97.1965183650583,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -51.63795896998168,
+      "z": -97.66359690432076,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -51.151532456806166,
+      "z": -98.10949357025143,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -50.64397127052552,
+      "z": -98.53053467665218,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -50.112977680520245,
+      "z": -98.92288389072282,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -49.55610038358766,
+      "z": -99.27559655257288,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -48.97028941129597,
+      "z": -99.57912642157055,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -48.362881272628194,
+      "z": -99.83644497991257,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -47.73942927858059,
+      "z": -100.05221182506637,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -47.104300336007064,
+      "z": -100.23128383337068,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -46.46104817202288,
+      "z": -100.37832514539863,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -45.81212913597708,
+      "z": -100.49775906513281,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -45.159156455923814,
+      "z": -100.59364280213272,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -44.503720043113255,
+      "z": -100.66958670336965,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -43.84647182970345,
+      "z": -100.72894933777607,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -43.188156113314875,
+      "z": -100.77478072467676,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -42.529176017246,
+      "z": -100.80996023768212,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -41.869846109347,
+      "z": -100.837261695376,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -41.21022635785306,
+      "z": -100.85945666565253,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -40.55075681510559,
+      "z": -100.87940483876368,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -39.891062415951254,
+      "z": -100.90023239819278,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -39.231520666998556,
+      "z": -100.92547397719962,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -38.57246654942752,
+      "z": -100.95936613006597,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -37.91453601781877,
+      "z": -101.00694779258257,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -37.25625860856417,
+      "z": -101.05218001013144,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -36.597156844812126,
+      "z": -101.08331637566884,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -35.93753858329959,
+      "z": -101.10132224869142,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -35.277689429740015,
+      "z": -101.10755334032743,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -34.61782585201849,
+      "z": -101.10375678503163,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -33.95806783308629,
+      "z": -101.09204158109986,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -33.2984348749943,
+      "z": -101.07481976582216,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -32.6388631845768,
+      "z": -101.05472274900663,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -31.979304351681854,
+      "z": -101.03450152075828,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -31.319669663637388,
+      "z": -101.01691111968293,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -30.659895516885186,
+      "z": -101.00459851753891,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": -30,
+      "z": -101,
+      "width": 2.5,
+      "id": "treasure-link"
+    },
+    {
+      "x": 42,
+      "z": 16,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 41.55998676847005,
+      "z": 16.490313253592966,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 41.11588433952844,
+      "z": 16.97693720723943,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 40.66853770989001,
+      "z": 17.460574561214013,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 40.218753210112,
+      "z": 17.941950357174658,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 39.76732652155032,
+      "z": 18.421785406172052,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 39.31503662595329,
+      "z": 18.900807485073848,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 38.862656866872875,
+      "z": 19.379744516699702,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 38.41095894982266,
+      "z": 19.85932554992167,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 37.9607230580049,
+      "z": 20.34027524648908,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 37.512733364136885,
+      "z": 20.823323789294786,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 37.067803704216225,
+      "z": 21.309184029134087,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 36.62675660178597,
+      "z": 21.798578348700147,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 36.19045899018179,
+      "z": 22.292202853848774,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 35.75979737906642,
+      "z": 22.79075711087395,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 35.33571044028854,
+      "z": 23.294907941654586,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 34.919167338594455,
+      "z": 23.80531323733635,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 34.511194723771894,
+      "z": 24.322586097012007,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 34.11285376743697,
+      "z": 24.847316351181775,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 33.72515305520745,
+      "z": 25.379946419271857,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 33.347989060192056,
+      "z": 25.920099302379196,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 32.98058723806523,
+      "z": 26.46693724686615,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 32.62210171491744,
+      "z": 27.019663196162796,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 32.27164178891005,
+      "z": 27.577515205835553,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 31.9282810549372,
+      "z": 28.13976564467035,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 31.591062921470726,
+      "z": 28.705723093588194,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 31.259009043545962,
+      "z": 29.274726526350758,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 30.931123604507327,
+      "z": 29.846143525659233,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 30.60639927711676,
+      "z": 30.419363272642098,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 30.28381993244776,
+      "z": 30.993793188863766,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 29.9623640284664,
+      "z": 31.568852964208276,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 29.641007592355397,
+      "z": 32.14396826767156,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 29.318726223764287,
+      "z": 32.71856568543348,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 28.994498016323202,
+      "z": 33.29206597767553,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 28.667305170713146,
+      "z": 33.863880081744114,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 28.336138538165265,
+      "z": 34.43340084973343,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 28,
+      "z": 35,
+      "width": 2.1,
+      "id": "garden-entrance"
+    },
+    {
+      "x": 28,
+      "z": 35,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 27.344077484795225,
+      "z": 35.07726237328337,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 26.687196300336133,
+      "z": 35.14602349737178,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 26.029581215766914,
+      "z": 35.20749631219994,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 25.37142958044878,
+      "z": 35.26288221296254,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 24.712891824646597,
+      "z": 35.31337291178963,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 24.05407085754197,
+      "z": 35.360151077386284,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 23.39507210078955,
+      "z": 35.404388786575105,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 22.73598854276367,
+      "z": 35.4472517025056,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 22.076887419971094,
+      "z": 35.48990305365295,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 21.417851670398093,
+      "z": 35.53350439092779,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 20.758958562583334,
+      "z": 35.57922049786931,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 20.10029595476311,
+      "z": 35.62822175341214,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 19.441988501180777,
+      "z": 35.68168511607033,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 18.784176944085004,
+      "z": 35.74079786820932,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 18.12699179907222,
+      "z": 35.80676248786413,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 17.47067694066846,
+      "z": 35.88078539385831,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 16.815487750382218,
+      "z": 35.964085225557774,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 16.161719075079546,
+      "z": 36.057888750100915,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 15.509729581053483,
+      "z": 36.163423903845505,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 14.859980844981335,
+      "z": 36.28190570463056,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 14.212978724268098,
+      "z": 36.41453579458872,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 13.569304155509053,
+      "z": 36.5624859080924,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 12.929638386586245,
+      "z": 36.726875911938976,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 12.294730565322148,
+      "z": 36.90876165861066,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 11.665555488922827,
+      "z": 37.10964827564799,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 11.043710549753579,
+      "z": 37.332108920940556,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 10.429455339519235,
+      "z": 37.57473551917902,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 9.822685003479714,
+      "z": 37.835605898248,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 9.223221148551996,
+      "z": 38.11277575438523,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 8.63063657127436,
+      "z": 38.40439429054813,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 8.04439196540379,
+      "z": 38.7086790223008,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 7.464016056707544,
+      "z": 39.0238376730334,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 6.888718352398741,
+      "z": 39.34828918315422,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 6.317828327981395,
+      "z": 39.68043789418285,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 5.750613259535769,
+      "z": 40.01877202904144,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 5.186218246140562,
+      "z": 40.3619030433765,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 4.62395877803971,
+      "z": 40.70838532503057,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 4.062927700598422,
+      "z": 41.056950246465206,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 3.5023880904013787,
+      "z": 41.406258833580424,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 2.941515774496301,
+      "z": 41.75505354414632,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 2.379537949011526,
+      "z": 42.10206528534982,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 1.8156985238396253,
+      "z": 42.44602862136534,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 1.2492436099285171,
+      "z": 42.78568487906973,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 0.679483081644424,
+      "z": 43.11974076861467,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": 0.10572661473445244,
+      "z": 43.44690418452803,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -0.4726315144624691,
+      "z": 43.76583458169417,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -1.0561787849576927,
+      "z": 44.07518342626767,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -1.6454006508779417,
+      "z": 44.373553847945495,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -2.240738998348694,
+      "z": 44.65954095635239,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -2.8425072377243907,
+      "z": 44.93170235728756,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -3.449970404745681,
+      "z": 45.19094494200968,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -4.060547394322902,
+      "z": 45.44268787026654,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -4.673932134808972,
+      "z": 45.68768568063414,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -5.289769312555572,
+      "z": 45.926342936677045,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -5.907854554109269,
+      "z": 46.15910978801525,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -6.528015371479787,
+      "z": 46.38643207474462,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -7.149945468630166,
+      "z": 46.608693037108125,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -7.773527328521804,
+      "z": 46.82633164207002,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -8.398600899123442,
+      "z": 47.03975809547188,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -9.024923040710302,
+      "z": 47.24934355684487,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -9.652395804986398,
+      "z": 47.45549819221956,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -10.280885759027454,
+      "z": 47.65861019128766,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -10.910211280195425,
+      "z": 47.85904404425389,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -11.540261173053782,
+      "z": 48.057179697540995,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -12.170929132676383,
+      "z": 48.25339197336847,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -12.802078905284688,
+      "z": 48.448040979600464,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -13.433586406595497,
+      "z": 48.641486383168704,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -14.065358781392984,
+      "z": 48.8340940475236,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -14.697278643761546,
+      "z": 49.02621995714912,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -15.329234267698185,
+      "z": 49.21822049697343,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -15.961120902473544,
+      "z": 49.41045382228289,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -16.592822366852673,
+      "z": 49.603275254030684,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -17.22423774709336,
+      "z": 49.79704641843047,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -17.85525708783694,
+      "z": 49.992128873351554,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -18.48574489577478,
+      "z": 50.18887988972617,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -19.115585011628397,
+      "z": 50.38766729433381,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -19.744689946003867,
+      "z": 50.588873887132436,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -20.372877401881127,
+      "z": 50.79285892676313,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -21,
+      "z": 51,
+      "width": 1.6,
+      "id": "garden-iris"
+    },
+    {
+      "x": -21,
+      "z": 51,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -21.400069965660272,
+      "z": 50.47678829752084,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -21.8084770817945,
+      "z": 49.9600594482251,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -22.22311944264561,
+      "z": 49.448315649604005,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -22.64192571925863,
+      "z": 48.9399713538399,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -23.062852003125233,
+      "z": 48.433380301405194,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -23.4838700708357,
+      "z": 47.926865377334266,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -23.902952109217267,
+      "z": 47.418748489516176,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -24.318056716652197,
+      "z": 46.90737870791415,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -24.727114475867104,
+      "z": 46.39116487827916,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -25.128026821303134,
+      "z": 45.868599344424794,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -25.51865086738138,
+      "z": 45.33831139705693,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -25.896828519417866,
+      "z": 44.799077228981155,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -26.260384192219142,
+      "z": 44.24988803019171,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -26.607172672537583,
+      "z": 43.689965277920194,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -26.935112880579506,
+      "z": 43.118808965857376,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -27.2425762570194,
+      "z": 42.53637330032015,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -27.530507791648123,
+      "z": 41.94402941454392,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -27.8009900968777,
+      "z": 41.34350317137363,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -28.056069952475166,
+      "z": 40.73625670501657,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -28.29771314852729,
+      "z": 40.12356120829253,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -28.527833021704158,
+      "z": 39.50643409159437,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -28.748253963440405,
+      "z": 38.8857544776064,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -28.960706161303886,
+      "z": 38.26232949194827,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -29.16688325109557,
+      "z": 37.63677966884135,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -29.36839906864578,
+      "z": 37.00972097101531,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -29.566837907316202,
+      "z": 36.381675743602266,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -29.76374874025476,
+      "z": 35.75315151472261,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -29.96066893758119,
+      "z": 35.12462974292613,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -30.15913522077637,
+      "z": 34.496594325772236,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -30.36069875365363,
+      "z": 33.86954708836739,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -30.56693928912025,
+      "z": 33.24402613508129,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -30.77948312326836,
+      "z": 32.62061297168416,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": -31.000000000000004,
+      "z": 31.999999999999996,
+      "width": 1.5,
+      "id": "garden-well"
+    },
+    {
+      "x": 28,
+      "z": 35,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 27.779510042489495,
+      "z": 35.62270762651363,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 27.5578352451054,
+      "z": 36.245075523443596,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 27.3351670359053,
+      "z": 36.86704785649024,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 27.111635917492194,
+      "z": 37.48872599849064,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 26.887387118714393,
+      "z": 38.11015809548922,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 26.66257418929757,
+      "z": 38.73135984187731,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 26.437318877680383,
+      "z": 39.35242724910329,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 26.211772115315593,
+      "z": 39.97337001901673,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 25.98606067756689,
+      "z": 40.59426057762043,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 25.760321959265116,
+      "z": 41.21513998031842,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 25.53468842741134,
+      "z": 41.836062490506215,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 25.309301571707362,
+      "z": 42.45705890987552,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 25.08428456898674,
+      "z": 43.07821366807457,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 24.859788027853817,
+      "z": 43.69954049378532,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 24.635947993032648,
+      "z": 44.32110006518526,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 24.412898152265043,
+      "z": 44.94296862442756,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 24.19081301488152,
+      "z": 45.565119229332204,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 23.96979347987059,
+      "z": 46.187744393565644,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 23.750052165773887,
+      "z": 46.810738052315315,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 23.531704374595062,
+      "z": 47.43428704148098,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 23.3149555450447,
+      "z": 48.058343133476875,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 23.099956762571367,
+      "z": 48.68303783105208,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 22.886912273643226,
+      "z": 49.308377176936766,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 22.676004821446178,
+      "z": 49.93446185878759,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 22.467458894180854,
+      "z": 50.56130585849705,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 22.261471951576677,
+      "z": 51.18904669365819,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 22.058325930505934,
+      "z": 51.81761261411961,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 21.860353104364382,
+      "z": 52.447895147693096,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 21.67312635242128,
+      "z": 53.081445520279736,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 21.495854081331604,
+      "z": 53.71785029962609,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 21.327306044976282,
+      "z": 54.35662035432599,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 21.16619460527076,
+      "z": 54.99730688623525,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 21.01118045372756,
+      "z": 55.639496857929174,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 20.860876807712515,
+      "z": 56.28280684697487,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 20.713852181387736,
+      "z": 56.926875518386254,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 20.5686319388374,
+      "z": 57.57135485147369,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 20.423698934883554,
+      "z": 58.21590020717422,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 20.277493644804885,
+      "z": 58.86015928533256,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 20.12841428427655,
+      "z": 59.503760006365674,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 19.974817530113025,
+      "z": 60.1462973665165,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 19.815020571972994,
+      "z": 60.78731936921445,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 19.647305350568512,
+      "z": 61.42631223591686,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 19.469925956424937,
+      "z": 62.0626852564146,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 19.281120251193542,
+      "z": 62.695755856023275,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 19.07912679382572,
+      "z": 63.32473573342429,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 18.862208055267015,
+      "z": 63.9487192437308,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 18.62868062522588,
+      "z": 64.5666755331362,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 18.37695258876645,
+      "z": 65.17744621611256,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 18.10557526533551,
+      "z": 65.7797339167737,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 17.813631016085424,
+      "z": 66.37236348808608,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 17.50259980852929,
+      "z": 66.95516840755728,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 17.174180155158112,
+      "z": 67.52835824533611,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 16.830030157013724,
+      "z": 68.09225404244327,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 16.471801049914095,
+      "z": 68.64731358227678,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 16.10110381206454,
+      "z": 69.19413109477807,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 15.719501721679704,
+      "z": 69.7334052792496,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 15.328508857950567,
+      "z": 70.26591181335449,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 14.929582676645035,
+      "z": 70.79249370061423,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 14.524112772188284,
+      "z": 71.3140624948835,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 14.113447286027068,
+      "z": 71.8315570867733,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 13.698892328872232,
+      "z": 72.34594423266003,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 13.281723954148283,
+      "z": 72.85820628364255,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 12.863183377830557,
+      "z": 73.36935219646696,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 12.444506922740183,
+      "z": 73.88038785319164,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 12.026930074964906,
+      "z": 74.3923192707284,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 11.611695264778058,
+      "z": 74.90615120086608,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 11.20006372692485,
+      "z": 75.42288019158194,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 10.793337085923229,
+      "z": 75.94347352978099,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 10.392853772237574,
+      "z": 76.46887681734432,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    },
+    {
+      "x": 9.999999999999998,
+      "z": 77.00000000000001,
+      "width": 1.6,
+      "id": "garden-south-pond"
+    }
+  ]
+}

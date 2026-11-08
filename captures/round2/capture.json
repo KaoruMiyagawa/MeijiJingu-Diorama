@@ -1,0 +1,814 @@
+{
+  "errors": [],
+  "warnings": [],
+  "comparison": {
+    "panorama": {
+      "cameraMaxDelta": 0,
+      "targetMaxDelta": 0,
+      "sameZoom": true,
+      "sameTime": true,
+      "sameCanvas": true,
+      "sameCounts": true
+    },
+    "sanctuary": {
+      "cameraMaxDelta": 0,
+      "targetMaxDelta": 0,
+      "sameZoom": true,
+      "sameTime": true,
+      "sameCanvas": true,
+      "sameCounts": true
+    },
+    "torii": {
+      "cameraMaxDelta": 0,
+      "targetMaxDelta": 0,
+      "sameZoom": true,
+      "sameTime": true,
+      "sameCanvas": true,
+      "sameCounts": true
+    },
+    "low-angle": {
+      "cameraMaxDelta": 0,
+      "targetMaxDelta": 0,
+      "sameZoom": true,
+      "sameTime": true,
+      "sameCanvas": true,
+      "sameCounts": true
+    }
+  },
+  "report": {
+    "precinct": {
+      "01-whole-park": {
+        "mode": "precinct",
+        "frames": 94,
+        "counts": {
+          "trees": 0,
+          "forestProxies": 10,
+          "landmarks": 21,
+          "pathEdges": 20
+        },
+        "drawCalls": 148,
+        "triangles": 550916,
+        "geometries": 82,
+        "textures": 22,
+        "camera": [
+          238.69731076721456,
+          333.81225044114484,
+          381.91569722754326
+        ],
+        "target": [
+          0,
+          1,
+          0
+        ],
+        "zoom": 1,
+        "projection": [
+          0.004104477611940298,
+          0,
+          0,
+          0,
+          0,
+          0.005970149253731343,
+          0,
+          0,
+          0,
+          0,
+          -0.001478358942861365,
+          0,
+          0,
+          0,
+          -1.0002956717885723,
+          1
+        ],
+        "windTime": 0,
+        "bounds": {
+          "min": [
+            -140,
+            -4.8,
+            -140
+          ],
+          "max": [
+            140,
+            16,
+            140
+          ]
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient, no atmospheric scattering"
+        },
+        "buildMs": 609,
+        "canvas": [
+          1600,
+          1100
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      },
+      "02-top-plan": {
+        "mode": "precinct",
+        "frames": 188,
+        "counts": {
+          "trees": 0,
+          "forestProxies": 10,
+          "landmarks": 21,
+          "pathEdges": 20
+        },
+        "drawCalls": 148,
+        "triangles": 550916,
+        "geometries": 82,
+        "textures": 22,
+        "camera": [
+          0,
+          559.8250091143934,
+          13.998541712240511
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "zoom": 1,
+        "projection": [
+          0.004568106312292359,
+          0,
+          0,
+          0,
+          0,
+          0.006644518272425249,
+          0,
+          0,
+          0,
+          0,
+          -0.001478358942861365,
+          0,
+          0,
+          0,
+          -1.0002956717885723,
+          1
+        ],
+        "windTime": 0,
+        "bounds": {
+          "min": [
+            -140,
+            -4.8,
+            -140
+          ],
+          "max": [
+            140,
+            16,
+            140
+          ]
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient, no atmospheric scattering"
+        },
+        "buildMs": 609,
+        "canvas": [
+          1600,
+          1100
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      },
+      "03-south-entrance": {
+        "mode": "precinct",
+        "frames": 278,
+        "counts": {
+          "trees": 0,
+          "forestProxies": 10,
+          "landmarks": 21,
+          "pathEdges": 20
+        },
+        "drawCalls": 112,
+        "triangles": 505937,
+        "geometries": 82,
+        "textures": 22,
+        "camera": [
+          237.9237094729766,
+          342.29054365621334,
+          483.7587940039012
+        ],
+        "target": [
+          43,
+          2,
+          84
+        ],
+        "zoom": 1,
+        "projection": [
+          0.011652542372881354,
+          0,
+          0,
+          0,
+          0,
+          0.01694915254237288,
+          0,
+          0,
+          0,
+          0,
+          -0.001478358942861365,
+          0,
+          0,
+          0,
+          -1.0002956717885723,
+          1
+        ],
+        "windTime": 0,
+        "bounds": {
+          "min": [
+            -140,
+            -4.8,
+            -140
+          ],
+          "max": [
+            140,
+            16,
+            140
+          ]
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient, no atmospheric scattering"
+        },
+        "buildMs": 609,
+        "canvas": [
+          1600,
+          1100
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      },
+      "04-north-entrance": {
+        "mode": "precinct",
+        "frames": 369,
+        "counts": {
+          "trees": 0,
+          "forestProxies": 10,
+          "landmarks": 21,
+          "pathEdges": 20
+        },
+        "drawCalls": 113,
+        "triangles": 508864,
+        "geometries": 82,
+        "textures": 22,
+        "camera": [
+          354.8675701063735,
+          365.330081413853,
+          -368.3183981628829
+        ],
+        "target": [
+          42,
+          2,
+          -79
+        ],
+        "zoom": 1,
+        "projection": [
+          0.011956521739130433,
+          0,
+          0,
+          0,
+          0,
+          0.017391304347826087,
+          0,
+          0,
+          0,
+          0,
+          -0.001478358942861365,
+          0,
+          0,
+          0,
+          -1.0002956717885723,
+          1
+        ],
+        "windTime": 0,
+        "bounds": {
+          "min": [
+            -140,
+            -4.8,
+            -140
+          ],
+          "max": [
+            140,
+            16,
+            140
+          ]
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient, no atmospheric scattering"
+        },
+        "buildMs": 609,
+        "canvas": [
+          1600,
+          1100
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      },
+      "05-northwest-entrance": {
+        "mode": "precinct",
+        "frames": 469,
+        "counts": {
+          "trees": 0,
+          "forestProxies": 10,
+          "landmarks": 21,
+          "pathEdges": 20
+        },
+        "drawCalls": 114,
+        "triangles": 508501,
+        "geometries": 82,
+        "textures": 22,
+        "camera": [
+          -413.6410014438209,
+          370.281039960891,
+          -289.470645160923
+        ],
+        "target": [
+          -59,
+          2,
+          -61.00000000000001
+        ],
+        "zoom": 1,
+        "projection": [
+          0.012276785714285714,
+          0,
+          0,
+          0,
+          0,
+          0.017857142857142856,
+          0,
+          0,
+          0,
+          0,
+          -0.001478358942861365,
+          0,
+          0,
+          0,
+          -1.0002956717885723,
+          1
+        ],
+        "windTime": 0,
+        "bounds": {
+          "min": [
+            -140,
+            -4.8,
+            -140
+          ],
+          "max": [
+            140,
+            16,
+            140
+          ]
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient, no atmospheric scattering"
+        },
+        "buildMs": 609,
+        "canvas": [
+          1600,
+          1100
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      },
+      "06-sanctuary": {
+        "mode": "precinct",
+        "frames": 572,
+        "counts": {
+          "trees": 0,
+          "forestProxies": 10,
+          "landmarks": 21,
+          "pathEdges": 20
+        },
+        "drawCalls": 119,
+        "triangles": 519216,
+        "geometries": 82,
+        "textures": 22,
+        "camera": [
+          113.17485147546591,
+          260.0622112022944,
+          456.9744554100408
+        ],
+        "target": [
+          -17.999999999999996,
+          4.999999999999999,
+          -24
+        ],
+        "zoom": 1,
+        "projection": [
+          0.020522388059701493,
+          0,
+          0,
+          0,
+          0,
+          0.029850746268656716,
+          0,
+          0,
+          0,
+          0,
+          -0.001478358942861365,
+          0,
+          0,
+          0,
+          -1.0002956717885723,
+          1
+        ],
+        "windTime": 0,
+        "bounds": {
+          "min": [
+            -140,
+            -4.8,
+            -140
+          ],
+          "max": [
+            140,
+            16,
+            140
+          ]
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient, no atmospheric scattering"
+        },
+        "buildMs": 609,
+        "canvas": [
+          1600,
+          1100
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      }
+    },
+    "core": {
+      "panorama": {
+        "mode": "core",
+        "frames": 149,
+        "counts": {
+          "trees": 274,
+          "canopyLobes": 6463,
+          "leafClusters": 47830,
+          "shrubs": 797
+        },
+        "drawCalls": 130,
+        "triangles": 3956719,
+        "geometries": 67,
+        "textures": 25,
+        "camera": [
+          80.55983888048333,
+          105.87979224062326,
+          122.9597540807378
+        ],
+        "target": [
+          0,
+          2,
+          0
+        ],
+        "zoom": 1,
+        "projection": [
+          0.013749999999999998,
+          0,
+          0,
+          0,
+          0,
+          0.02,
+          0,
+          0,
+          0,
+          0,
+          -0.004446420631391729,
+          0,
+          0,
+          0,
+          -1.0008892841262782,
+          1
+        ],
+        "windTime": 0,
+        "bounds": {
+          "min": [
+            -40,
+            -3.8,
+            -40
+          ],
+          "max": [
+            40,
+            17,
+            40
+          ]
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient, no atmospheric scattering"
+        },
+        "buildMs": 724,
+        "canvas": [
+          1600,
+          1100
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      },
+      "sanctuary": {
+        "mode": "core",
+        "frames": 386,
+        "counts": {
+          "trees": 274,
+          "canopyLobes": 6463,
+          "leafClusters": 47830,
+          "shrubs": 797
+        },
+        "drawCalls": 121,
+        "triangles": 3955312,
+        "geometries": 67,
+        "textures": 25,
+        "camera": [
+          60.80629991908305,
+          79.49174890047216,
+          135.01574979770763
+        ],
+        "target": [
+          0,
+          4.7,
+          -17
+        ],
+        "zoom": 1,
+        "projection": [
+          0.04296875,
+          0,
+          0,
+          0,
+          0,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          -0.004446420631391729,
+          0,
+          0,
+          0,
+          -1.0008892841262782,
+          1
+        ],
+        "windTime": 0,
+        "bounds": {
+          "min": [
+            -40,
+            -3.8,
+            -40
+          ],
+          "max": [
+            40,
+            17,
+            40
+          ]
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient, no atmospheric scattering"
+        },
+        "buildMs": 724,
+        "canvas": [
+          1600,
+          1100
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      },
+      "torii": {
+        "mode": "core",
+        "frames": 596,
+        "counts": {
+          "trees": 274,
+          "canopyLobes": 6463,
+          "leafClusters": 47830,
+          "shrubs": 797
+        },
+        "drawCalls": 128,
+        "triangles": 3955426,
+        "geometries": 67,
+        "textures": 25,
+        "camera": [
+          29.000438975540913,
+          73.33523556067729,
+          189.33786941392273
+        ],
+        "target": [
+          13,
+          4,
+          24
+        ],
+        "zoom": 1,
+        "projection": [
+          0.04296875,
+          0,
+          0,
+          0,
+          0,
+          0.0625,
+          0,
+          0,
+          0,
+          0,
+          -0.004446420631391729,
+          0,
+          0,
+          0,
+          -1.0008892841262782,
+          1
+        ],
+        "windTime": 0,
+        "bounds": {
+          "min": [
+            -40,
+            -3.8,
+            -40
+          ],
+          "max": [
+            40,
+            17,
+            40
+          ]
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient, no atmospheric scattering"
+        },
+        "buildMs": 724,
+        "canvas": [
+          1600,
+          1100
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      },
+      "low-angle": {
+        "mode": "core",
+        "frames": 714,
+        "counts": {
+          "trees": 274,
+          "canopyLobes": 6463,
+          "leafClusters": 47830,
+          "shrubs": 797
+        },
+        "drawCalls": 130,
+        "triangles": 3956719,
+        "geometries": 67,
+        "textures": 25,
+        "camera": [
+          0,
+          27.559982041574756,
+          163.58064623660601
+        ],
+        "target": [
+          0,
+          4.99999999999999,
+          -15.000000000000004
+        ],
+        "zoom": 1,
+        "projection": [
+          0.029891304347826088,
+          0,
+          0,
+          0,
+          0,
+          0.043478260869565216,
+          0,
+          0,
+          0,
+          0,
+          -0.004446420631391729,
+          0,
+          0,
+          0,
+          -1.0008892841262782,
+          1
+        ],
+        "windTime": 0,
+        "bounds": {
+          "min": [
+            -40,
+            -3.8,
+            -40
+          ],
+          "max": [
+            40,
+            17,
+            40
+          ]
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient, no atmospheric scattering"
+        },
+        "buildMs": 724,
+        "canvas": [
+          1600,
+          1100
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      }
+    }
+  }
+}

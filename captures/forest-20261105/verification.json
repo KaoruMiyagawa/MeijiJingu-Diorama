@@ -1,0 +1,334 @@
+{
+  "status": "passed",
+  "testedAt": "2026-11-08T05:03:55.133Z",
+  "browser": "156.0.8078.80",
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "dpr": 1,
+  "firstFrameMs": 2557,
+  "metrics": {
+    "wholePark": {
+      "timing": {
+        "medianMs": 4.199999999999818,
+        "p95Ms": 4.400000000000091,
+        "p99Ms": 8.300000000000182,
+        "samples": 240,
+        "over33ms": 0
+      },
+      "stats": {
+        "mode": "precinct",
+        "frames": 491,
+        "counts": {
+          "trees": 1000,
+          "canopyLobes": 13888,
+          "leafClusters": 83568,
+          "shrubs": 6486,
+          "chunks": 23,
+          "detailedFacilities": 8,
+          "forestProxies": 0,
+          "landmarks": 21,
+          "pathEdges": 20
+        },
+        "drawCalls": 489,
+        "triangles": 4894946,
+        "geometries": 158,
+        "textures": 21,
+        "camera": [
+          348.2915092175114,
+          390.17584881660906,
+          207.75283005956817
+        ],
+        "target": [
+          0,
+          4,
+          0
+        ],
+        "zoom": 1,
+        "projection": [
+          0.004326923076923077,
+          0,
+          0,
+          0,
+          0,
+          0.007692307692307693,
+          0,
+          0,
+          0,
+          0,
+          -0.001599870239701933,
+          0,
+          0,
+          0,
+          -1.0003199740479405,
+          1
+        ],
+        "windTime": 2.1208000000000027,
+        "bounds": {
+          "min": [
+            -99,
+            -5,
+            -140
+          ],
+          "max": [
+            101,
+            22,
+            140
+          ]
+        },
+        "lod": {
+          "visibleChunks": 23,
+          "detailedChunks": 0
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient with diffuse sky radiance"
+        },
+        "buildMs": 1627,
+        "canvas": [
+          1920,
+          1080
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      }
+    },
+    "sanctuaryClose": {
+      "timing": {
+        "medianMs": 4.199999999999818,
+        "p95Ms": 8.399999999999636,
+        "p99Ms": 11.299999999999272,
+        "samples": 240,
+        "over33ms": 0
+      },
+      "stats": {
+        "mode": "precinct",
+        "frames": 929,
+        "counts": {
+          "trees": 1000,
+          "canopyLobes": 13888,
+          "leafClusters": 83568,
+          "shrubs": 6486,
+          "chunks": 23,
+          "detailedFacilities": 8,
+          "forestProxies": 0,
+          "landmarks": 21,
+          "pathEdges": 20
+        },
+        "drawCalls": 481,
+        "triangles": 7684110,
+        "geometries": 160,
+        "textures": 21,
+        "camera": [
+          179.38768832689894,
+          255.02440521407203,
+          436.5712727627642
+        ],
+        "target": [
+          -17.999999999999996,
+          4.999999999999999,
+          -24
+        ],
+        "zoom": 1,
+        "projection": [
+          0.017857142857142856,
+          0,
+          0,
+          0,
+          0,
+          0.031746031746031744,
+          0,
+          0,
+          0,
+          0,
+          -0.001599870239701933,
+          0,
+          0,
+          0,
+          -1.0003199740479405,
+          1
+        ],
+        "windTime": 4.179200000000007,
+        "bounds": {
+          "min": [
+            -99,
+            -5,
+            -140
+          ],
+          "max": [
+            101,
+            22,
+            140
+          ]
+        },
+        "lod": {
+          "visibleChunks": 17,
+          "detailedChunks": 17
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient with diffuse sky radiance"
+        },
+        "buildMs": 1627,
+        "canvas": [
+          1920,
+          1080
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      }
+    },
+    "gardenClose": {
+      "timing": {
+        "medianMs": 4.199999999999818,
+        "p95Ms": 4.5,
+        "p99Ms": 5,
+        "samples": 240,
+        "over33ms": 0
+      },
+      "stats": {
+        "mode": "precinct",
+        "frames": 1393,
+        "counts": {
+          "trees": 1000,
+          "canopyLobes": 13888,
+          "leafClusters": 83568,
+          "shrubs": 6486,
+          "chunks": 23,
+          "detailedFacilities": 8,
+          "forestProxies": 0,
+          "landmarks": 21,
+          "pathEdges": 20
+        },
+        "drawCalls": 450,
+        "triangles": 5927946,
+        "geometries": 160,
+        "textures": 21,
+        "camera": [
+          318.61285051938876,
+          363.6809450215431,
+          345.5277323916959
+        ],
+        "target": [
+          -6,
+          3,
+          66
+        ],
+        "zoom": 1,
+        "projection": [
+          0.013235294117647059,
+          0,
+          0,
+          0,
+          0,
+          0.023529411764705882,
+          0,
+          0,
+          0,
+          0,
+          -0.001599870239701933,
+          0,
+          0,
+          0,
+          -1.0003199740479405,
+          1
+        ],
+        "windTime": 6.129099999999961,
+        "bounds": {
+          "min": [
+            -99,
+            -5,
+            -140
+          ],
+          "max": [
+            101,
+            22,
+            140
+          ]
+        },
+        "lod": {
+          "visibleChunks": 15,
+          "detailedChunks": 15
+        },
+        "sun": {
+          "date": "2026-06-01",
+          "localTime": "10:00 JST",
+          "location": [
+            35.676,
+            139.699
+          ],
+          "solarModel": "fractional-year approximation",
+          "direction": [
+            0.3869628249484059,
+            0.9026912410093093,
+            0.18817092100806326
+          ],
+          "sky": "procedural gradient with diffuse sky radiance"
+        },
+        "buildMs": 1627,
+        "canvas": [
+          1920,
+          1080
+        ],
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      }
+    }
+  },
+  "checks": [
+    "Every v1 snapshot file retains its recorded SHA256",
+    "Original v1 ZIP is unchanged",
+    "Six original model/material modules are unchanged",
+    "West approach has a real opening through the derived corridor mesh",
+    "Three entrances and garden paths share a connected route graph",
+    "Default page is the complete forest, with no graybox forest",
+    "Canvas-only presentation is retained",
+    "No graybox labels or landmark volumes render",
+    "Trees occupy all four precinct quadrants",
+    "Tree trunks avoid paths, ponds, buildings and reserved sanctuary",
+    "Landmark elevations use the common terrain function",
+    "Landmarks retain reference sources and coordinate confidence",
+    "Leaf detail is inactive at whole-park scale and active in close-up",
+    "Left drag rotates the whole park",
+    "Wheel zoom remains smooth and functional",
+    "Right drag pans the target",
+    "Maximum zoom bounded",
+    "Minimum zoom bounded",
+    "Pan target obeys the full precinct bounds",
+    "Preset transition remains animated and reaches sanctuary",
+    "All ten preset cameras render",
+    "R restores full-park panorama",
+    "Wind and water animation clock advances",
+    "Portrait resize updates the canvas",
+    "Preserved core sanctuary: same geometry counts, camera, target and animation time",
+    "Preserved core low-angle: same geometry counts, camera, target and animation time",
+    "One-finger touch rotates the forest",
+    "Pinch zoom persists with frozen animation",
+    "No runtime errors or failed resource requests"
+  ],
+  "errors": [],
+  "warnings": [],
+  "failedRequests": [],
+  "measurementNotes": "Built dist in installed headless Chrome, local HTTP. First-frame time includes automation polling and OS/GPU caches are not flushed. 900ms warmup then 240 RAF intervals per camera. These are frame intervals, not isolated GPU execution times. Mobile uses desktop Chrome touch emulation."
+}

@@ -1,0 +1,21 @@
+{
+  "name": "meiji-jingu-diorama",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node scripts/verify-forest.mjs",
+    "capture:round2": "node scripts/capture-round2.mjs",
+    "capture:forest": "node scripts/capture-forest.mjs"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "vite": "8.3.5",
+    "@playwright/test": "^1.58.2"
+  }
+}

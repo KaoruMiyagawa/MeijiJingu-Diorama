@@ -1,0 +1,30 @@
+node_modules/
+dist/
+references/
+*.log
+.server-pid
+
+# Local recovery archives and duplicated baseline snapshots stay outside Git.
+baselines/**
+!baselines/v1-20261103/
+baselines/v1-20261103/**
+!baselines/v1-20261103/SHA256.json
+*.zip
+
+# Keep the complete latest forest capture set and the round-two comparison set.
+captures/01-*.png
+captures/02-*.png
+captures/03-*.png
+captures/04-*.png
+captures/05-*.png
+captures/06-*.png
+captures/07-*.png
+captures/08-*.png
+captures/verification.json
+
+# Generated tool state and local editor/OS files.
+.vite/
+playwright-report/
+test-results/
+.DS_Store
+Thumbs.db

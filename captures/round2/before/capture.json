@@ -1,0 +1,132 @@
+{
+  "source": "baselines/v1-20261103 (unmodified source)",
+  "animationTime": 0,
+  "viewport": [
+    1600,
+    1100
+  ],
+  "dpr": 1,
+  "errors": [],
+  "views": {
+    "panorama": {
+      "frames": 106,
+      "counts": {
+        "trees": 274,
+        "canopyLobes": 6463,
+        "leafClusters": 47830,
+        "shrubs": 797
+      },
+      "drawCalls": 129,
+      "triangles": 3956717,
+      "geometries": 66,
+      "textures": 21,
+      "camera": [
+        80.55983888048333,
+        105.87979224062326,
+        122.9597540807378
+      ],
+      "target": [
+        0,
+        2,
+        0
+      ],
+      "zoom": 1,
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "windTime": 0,
+      "canvas": [
+        1600,
+        1100
+      ]
+    },
+    "sanctuary": {
+      "frames": 231,
+      "counts": {
+        "trees": 274,
+        "canopyLobes": 6463,
+        "leafClusters": 47830,
+        "shrubs": 797
+      },
+      "drawCalls": 120,
+      "triangles": 3955310,
+      "geometries": 66,
+      "textures": 21,
+      "camera": [
+        60.80629991908305,
+        79.49174890047216,
+        135.01574979770763
+      ],
+      "target": [
+        0,
+        4.7,
+        -17
+      ],
+      "zoom": 1,
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "windTime": 0,
+      "canvas": [
+        1600,
+        1100
+      ]
+    },
+    "torii": {
+      "frames": 364,
+      "counts": {
+        "trees": 274,
+        "canopyLobes": 6463,
+        "leafClusters": 47830,
+        "shrubs": 797
+      },
+      "drawCalls": 127,
+      "triangles": 3955424,
+      "geometries": 66,
+      "textures": 21,
+      "camera": [
+        29.000438975540913,
+        73.33523556067729,
+        189.33786941392273
+      ],
+      "target": [
+        13,
+        4,
+        24
+      ],
+      "zoom": 1,
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "windTime": 0,
+      "canvas": [
+        1600,
+        1100
+      ]
+    },
+    "low-angle": {
+      "frames": 500,
+      "counts": {
+        "trees": 274,
+        "canopyLobes": 6463,
+        "leafClusters": 47830,
+        "shrubs": 797
+      },
+      "drawCalls": 129,
+      "triangles": 3956717,
+      "geometries": 66,
+      "textures": 21,
+      "camera": [
+        0,
+        27.559982041574756,
+        163.58064623660601
+      ],
+      "target": [
+        0,
+        4.99999999999999,
+        -15.000000000000004
+      ],
+      "zoom": 1,
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "windTime": 0,
+      "canvas": [
+        1600,
+        1100
+      ]
+    }
+  }
+}
